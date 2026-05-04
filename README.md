@@ -132,6 +132,16 @@ agents/talento_senior
 agents/abogado_matrimonialista
 
 ---
+## Versionado
+
+Para actualizar y versionar:
+``` bash
+	git remote add origin git@github-desarrollobd:josegalindobigdata-devlpr/basic_ai_system.git
+	git add .
+	git commit -m "Comentario significativo para el versionado"
+	git push -u origin main
+```
+---
 
 ## 🧠 Nota final
 
