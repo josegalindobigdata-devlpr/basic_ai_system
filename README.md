@@ -16,7 +16,7 @@ ai-system/
 │ └── codex/
 ├── docs/
 └── shared/
-
+mk
 ---
 
 ## 📦 core/
@@ -41,10 +41,16 @@ Cada agente es un módulo independiente con su propia lógica y objetivos.
 
 ### Ejemplos:
 
-- **finanzas/** → análisis financiero, métricas, decisiones económicas
-- **marketing/** → generación de estrategias, copywriting, campañas
-- **data/** → análisis de datos, procesamiento, insights
-- **codex/** → asistencia en programación y desarrollo técnico
+- **abogado_matrimonialista/** → ayudante especializado en derecho matrimonial
+- **abogado_sucesiones/** → ayudante especializado en derecho de familia
+- **analyst/** → ayudante analista general
+- **asesor_laboral/** → ayudante de asesoria laboral para TIC
+- **branding/** → ayudante de branding
+- **consultor_senior/** → asistencia en Consultoria Técnica con nivel seniority
+- **crypto/** → asistencia en analisis de crypto y trading de criptoactivos
+- **negociador/** → asistencia en estrategia de negociacion
+- **talento/** → asistencia en gestion del talento
+- **match_positioning/** → asistencia en posiciones y valoracion
 
 Cada agente puede incluir:
 - Configuración propia
@@ -65,6 +71,12 @@ Incluye:
 - Estructuras de datos compartidas
 
 👉 Esta capa evita duplicación de lógica entre agentes.
+
+---
+
+## docs/
+
+Información especial de documentación adicional
 
 ---
 
