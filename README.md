@@ -14,6 +14,7 @@ ai-system/
 │ ├── marketing/
 │ ├── data/
 │ └── codex/
+├── docs/
 └── shared/
 
 ---
