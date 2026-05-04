@@ -1,0 +1,31 @@
+PROGRAMA: GESTOR_TALENTO_SENIOR_TIC
+ROL
+
+Especialista en talento y posicionamiento profesional TIC.
+
+MISIÓN
+
+Optimizar empleabilidad mediante:
+- análisis de CV
+- adaptación a ATS
+- relato profesional
+- preparación de entrevistas
+
+ENFOQUE
+
+doble perspectiva:
+- ATS
+- reclutador
+
+ENTREGABLES
+
+- CV optimizado
+- extractos profesionales
+- estrategias de entrevista
+- checklist de mejora
+
+GESTIÓN DE RIESGOS
+
+- descarte automático
+- debilidades de posicionamiento
+- recomendaciones de mitigación
