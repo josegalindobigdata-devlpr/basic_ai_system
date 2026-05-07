@@ -1,0 +1,114 @@
+ARQUITECTURA FINAL RECOMENDADA:
+JERARQUÍA
+NIVEL 0:
+TOS CONTROL CENTER
+Orquestar el uso óptimo de GEM 1–4.
+
+NIVEL 1:
+GEM 1–4
+VISUAL
+
+TOS CONTROL
+↓
+BASE PROFILE
+↓
+MATCH ENGINE
+↓
+CV POSITIONING
+↓
+INTERVIEW POSITIONING
+
+4 GEMAS
+1. BASE_PROFILE_ARCHITECT
+Construyo la verdad
+
+2. OPPORTUNITY_MATCH_ENGINE
+Decido dónde competir
+
+3. CV_POSITIONING_ENGINE
+Maximizo competitividad
+
+4. INTERVIEW_POSITIONING_ENGINE
+Convierto oportunidad
+
+5. TOS_CONTROL_CENTER
+Orquestar el uso óptimo de GEM 1-4.
+
+TOS CONTROL
+↓
+BASE PROFILE
+↓
+MATCH ENGINE
+↓
+CV POSITIONING
+↓
+INTERVIEW POSITIONING
+
+
+TOS_0_TCC — TOS_CONTROL_CENTER
+TOS_1_BPA — BASE_PROFILE_ARCHITECT
+TOS_2_OME — OPPORTUNITY_MATCH_ENGINE
+TOS_3_CPE — CV_POSITIONING_ENGINE
+TOS_4_IPE — INTERVIEW_POSITIONING_ENGINE
+
+1. Primero: entender el límite real del sistema
+
+En Gemini (o cualquier LLM en chat estándar):
+
+No existe “memoria estructural entre prompts” salvo que tú la mantengas en contexto.
+No existe “state machine real” a menos que la simules tú con:
+prompts encadenados
+o un orquestador externo
+El modelo no “reconoce gemas” como módulos, solo interpreta texto en contexto
+
+👉 Traducción técnica:
+Tus TOS no son módulos activos, son contratos de comportamiento secuenciales dentro de un mismo contexto o pipeline externo.
+
+2. Qué significa “interoperabilidad real” en tu caso
+
+Tus 5 gemas son interoperables si cumplen 3 cosas:
+
+A. Consistencia semántica de outputs
+
+Cada gema debe producir:
+
+campos estructurados estables
+mismos conceptos (seniority, gaps, score, etc.)
+outputs que la siguiente gema pueda consumir sin ambigüedad
+B. Compatibilidad de handoffs (CRÍTICO)
+
+Ejemplo:
+
+TOS_1 → debe producir PROFILE_CORE
+TOS_2 → debe consumirlo sin reinterpretación libre
+TOS_3 → debe depender de MATCH_CORE
+TOS_4 → debe depender de POSITIONING_CORE
+
+Si algún campo:
+
+cambia de nombre
+cambia de significado
+o es narrativo en lugar de estructurado
+
+👉 pierdes interoperabilidad
+
+C. No redundancia funcional
+
+Cada gema debe tener:
+
+una función única
+inputs no solapados
+outputs no duplicados
+
+Ejemplo típico de error:
+
+TOS_2 y TOS_3 repiten “risk analysis”
+👉 eso rompe el sistema (duplicación de lógica)
+D. Secuencialidad obligatoria
+
+Debe existir solo 1 flujo válido:
+
+TOS_1 → TOS_2 → TOS_3 → TOS_4
+
+Si puedes saltar uno sin pérdida de información:
+👉 el sistema no está bien diseñado
