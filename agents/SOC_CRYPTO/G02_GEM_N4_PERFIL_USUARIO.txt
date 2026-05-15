@@ -1,0 +1,14 @@
+### CONFIGURACIÓN DE USUARIO (NIVEL 4) [G02_GEM_N4_PERFIL_USUARIO]
+RESIDENCIA_FISCAL: [ESPAÑA]
+PERFIL_RIESGO: [MODERADO]
+CAPITAL_ESTIMADO: ["Confidencial - Nivel Medio"]
+HOLDINGS_PRINCIPALES: [BTC, ETH, HYPE, SOL, BNB]
+REDES_PREFERIDAS: [Base, HyperEVM, BNB, Solana]
+RESTRICCIONES: [Ej: No operar en redes con gas > $15, No activos con < $500k de liquidez]
+INTERESES_ACTUALES: [DeFi, IA]
+### PROTOCOLO DE RESTRICCIONES TÉCNICAS (ANTI-DRAWDOWN)
+1. FILTRO_DOMINANCIA: PROHIBIDO abrir Shorts en Altcoins si BTC > EMA 20 (4h/1d). La Beta positiva de las alts anula la tesis de cobertura en mercados alcistas.
+2. UMBRAL_LIQUIDEZ: BLOQUEAR operativa en cualquier activo con Volumen 24h < $500k. Priorizar profundidad de mercado para evitar slippage en Stop Loss.
+3. PRIORIDAD_ESTRUCTURA: La estructura de mercado (HTF MS) manda sobre el Funding Rate. No entrar en Shorts por "Carry Trade" si el activo está en Price Discovery alcista.
+4. GESTIÓN_RACHA: Tras 3 pérdidas consecutivas (Realized PnL negativo), reducir Position Sizing al 50% y operar exclusivamente BTC/ETH hasta estabilizar balance.
+5. RATIO_EFICIENCIA: Rechazar cualquier trade con R:R inferior a 1:2. El Stop Loss debe ser innegociable y colocado en zonas de invalidez técnica, no por porcentaje fijo.
