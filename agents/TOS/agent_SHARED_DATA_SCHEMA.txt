@@ -1,0 +1,35 @@
+TOS_5_SDS - SHARED_DATA_SCHEMA
+Módulo transversal obligatorio
+A. PROFILE_MASTER_SCHEMA
+candidate_identity
+career_level
+functional_identity
+sector_experience
+leadership_scope
+stakeholder_scope
+seniority_score
+ATS_keyword_bank
+structural_risks
+career_timeline
+B. OPPORTUNITY_SCHEMA
+role_level
+business_problem
+mandatory_keywords
+target_seniority
+sector_constraints
+stakeholder_complexity
+hidden_requirements
+C. POSITIONING_SCHEMA
+positioning_angle
+differentiators
+strategic_emphasis
+narrative_priority
+risk_mitigations
+interview_sensitive_points
+D. INTERVIEW_SCHEMA
+objection_points
+risk_defense_angles
+salary_positioning
+executive_story
+critical_examples
+decision_signals

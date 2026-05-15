@@ -1,0 +1,30 @@
+BUILD ORDER (OBLIGATORIO)
+Orden	Módulo	Motivo
+1	TOS_01_SDS	Define contratos globales
+2	TOS_0_TCC	Orquestación depende del schema
+3	TOS_02_MEMORY	Necesita estados normalizados
+4	TOS_03_NCE	Necesita schemas y handoffs
+5	TOS_1_BPA	Debe alinearse al SDS
+6	TOS_2_OME	Consume BPA normalizado
+7	TOS_3_CPE	Consumidor más complejo
+8	TOS_4_IPE	Última capa de conversión
+
+
+1. SYSTEM GOVERNANCE LAYER
+2. GLOBAL STATE MACHINE
+3. CANONICAL DATA CONTRACTS
+4. MODULE INTEROPERABILITY RULES
+5. HANDOFF PROTOCOLS
+6. VALIDATION & COMPLIANCE ENGINE
+7. CONFIDENCE & RELIABILITY FRAMEWORK
+8. NAMING & OUTPUT STANDARDS
+9. SYSTEM ENFORCEMENT RULES
+10. FINAL OPERATING PHILOSOPHY
+
+COMPLIANCE REQUIREMENT
+
+This module is governed by:
+TOS_01_SDS — SHARED_DATA_SCHEMA
+
+All outputs, states, contracts and handoffs
+must comply with SDS canonical standards.
