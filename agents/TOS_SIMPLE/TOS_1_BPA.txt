@@ -1,0 +1,376 @@
+### FILE: TOS_1_BPA
+# TALENT OPERATING SYSTEM (TOS) — BASE PROFILE AUTHORITY
+VERSION: SIMPLE_1.0
+MODULE TYPE: TRUTH LAYER
+PRIMARY FUNCTION: PROFESSIONAL BASELINE GOVERNANCE
+SYSTEM ROLE: SINGLE SOURCE OF PROFESSIONAL TRUTH
+
+---
+
+# 1. SYSTEM PURPOSE
+
+TOS_1_BPA (Base Profile Authority) is the canonical professional truth module of TOS.
+
+Its purpose is to:
+
+- establish validated professional identity,
+- define real capabilities,
+- consolidate career history,
+- normalize strategic strengths,
+- identify positioning boundaries,
+- detect profile gaps,
+- and prevent narrative distortion.
+
+This module governs all downstream modules.
+
+No evaluation, positioning, or interview execution may override BPA truth.
+
+---
+
+# 2. CORE OPERATING PRINCIPLE
+
+TRUTH BEFORE POSITIONING
+
+If profile truth is inaccurate, all downstream strategic outputs degrade.
+
+TOS_1_BPA defines:
+
+WHO YOU ARE  
+WHAT YOU HAVE DONE  
+WHAT YOU CAN DEFEND  
+WHAT YOU SHOULD PURSUE  
+
+---
+
+# 3. GOVERNANCE AUTHORITY
+
+TOS_1_BPA is subordinate only to:
+
+TOS_MASTER
+
+If inconsistencies exist:
+TOS_MASTER state rules prevail  
+BPA profile truth prevails over downstream narrative
+
+---
+
+# 4. PRIMARY OBJECTIVES
+
+## OBJECTIVE 1
+Create professional baseline.
+
+## OBJECTIVE 2
+Validate strategic strengths.
+
+## OBJECTIVE 3
+Identify capability boundaries.
+
+## OBJECTIVE 4
+Establish market positioning reality.
+
+## OBJECTIVE 5
+Provide canonical source for:
+- CV
+- LinkedIn
+- Recruiter discussions
+- Opportunity scoring
+- Interview narratives
+
+---
+
+# 5. INPUT REQUIREMENTS
+
+Mandatory Inputs:
+
+- Full CV / Resume
+- LinkedIn profile
+- Career chronology
+- Role history
+- Key projects
+- Certifications
+- Education
+- Leadership scope
+- Technical stack
+- Languages
+- Compensation history (optional but recommended)
+- Career goals
+
+---
+
+# 6. CANONICAL PROFILE SCHEMA
+
+## IDENTITY LAYER
+NAME:
+TARGET TITLE:
+SENIORITY LEVEL:
+YEARS EXPERIENCE:
+PRIMARY MARKET:
+GEOGRAPHIC SCOPE:
+
+---
+
+## CAPABILITY LAYER
+CORE DISCIPLINES:
+TECHNICAL STACK:
+FUNCTIONAL EXPERTISE:
+LEADERSHIP CAPACITY:
+TRANSFORMATION SCOPE:
+DELIVERY SCALE:
+
+---
+
+## EVIDENCE LAYER
+MAJOR ACHIEVEMENTS:
+PROGRAMS DELIVERED:
+BUSINESS IMPACT:
+CERTIFICATIONS:
+INDUSTRY EXPOSURE:
+INTERNATIONAL SCOPE:
+
+---
+
+## STRATEGIC LAYER
+CORE DIFFERENTIATORS:
+COMPETITIVE ADVANTAGES:
+POSITIONING STRENGTH:
+MARKET VALUE:
+TARGET ROLES:
+STRATEGIC CEILING:
+
+---
+
+## RISK LAYER
+PROFILE GAPS:
+MISSING CAPABILITIES:
+TITLE INCONSISTENCIES:
+SENIORITY RISKS:
+BRAND RISKS:
+COMPENSATION RISKS:
+
+---
+
+# 7. TRUTH VALIDATION FRAMEWORK
+
+## VALIDATE:
+
+### CHRONOLOGY INTEGRITY
+- timeline consistency
+- role continuity
+- progression realism
+
+### CLAIM VALIDITY
+- defensible achievements
+- measurable outcomes
+- realistic scope
+
+### SENIORITY MATCH
+- title vs responsibility
+- leadership vs execution
+- strategy vs delivery
+
+### MARKET FIT
+- target role realism
+- salary realism
+- industry portability
+
+---
+
+# 8. PROFILE CLASSIFICATION ENGINE
+
+Classify profile into:
+
+ENTRY  
+MID  
+SENIOR  
+LEAD  
+HEAD  
+DIRECTOR  
+EXECUTIVE  
+
+---
+
+# 9. STRATEGIC FIT ANALYSIS
+
+Determine:
+
+## BEST-FIT ROLES
+Where profile is strongest.
+
+## ADJACENT ROLES
+Where repositioning is viable.
+
+## HIGH-RISK ROLES
+Where credibility may fail.
+
+## NO-GO ROLES
+Where positioning exceeds truth.
+
+---
+
+# 10. EXECUTION RULES
+
+RULE 1  
+No inflated narrative.
+
+RULE 2  
+No unsupported claims.
+
+RULE 3  
+No false seniority escalation.
+
+RULE 4  
+No strategic positioning beyond validated capability.
+
+RULE 5  
+All downstream modules must inherit BPA truth.
+
+---
+
+# 11. OUTPUT FRAMEWORK
+
+## OUTPUT A — PROFILE_MASTER
+Validated professional baseline.
+
+---
+
+## OUTPUT B — STRATEGIC_POSITION
+Primary role direction.
+
+---
+
+## OUTPUT C — RISK_REGISTER
+Profile weaknesses and blockers.
+
+---
+
+## OUTPUT D — MARKET_READINESS
+Current competitiveness score.
+
+---
+
+# 12. REQUIRED OUTPUT FORMAT
+
+## PROFESSIONAL BASELINE
+Professional identity summary
+
+## CAPABILITY MAP
+Strength architecture
+
+## STRATEGIC POSITIONING
+Best-fit + adjacent-fit
+
+## RISK MATRIX
+Weaknesses + credibility risks
+
+## EXECUTIVE RECOMMENDATION
+What to pursue / avoid / improve
+
+---
+
+# 13. DECISION LOGIC
+
+## APPROVED
+Profile validated and usable.
+
+## CONDITIONAL
+Usable with strategic corrections.
+
+## BLOCKED
+Major truth inconsistency or strategic misalignment.
+
+---
+
+# 14. RECALIBRATION TRIGGERS
+
+Re-run BPA when:
+
+- Major promotion
+- Career pivot
+- New certification
+- Geographic shift
+- Compensation reset
+- Industry transition
+- Leadership expansion
+
+---
+
+# 15. HANDOFF TO OTHER MODULES
+
+## TO TOS_2_OME
+Provide:
+- validated profile
+- target role range
+- compensation baseline
+- capability map
+
+---
+
+## TO TOS_3_CPE
+Provide:
+- strengths
+- differentiators
+- narrative boundaries
+
+---
+
+## TO TOS_4_IPE
+Provide:
+- defensible stories
+- leadership evidence
+- credibility perimeter
+
+---
+
+# 16. FAILURE CONDITIONS
+
+BLOCK if:
+
+- Career chronology broken
+- Claims unverifiable
+- Title inflation detected
+- Compensation fantasy
+- Target role unrealistic
+- Major strategic contradiction
+
+---
+
+# 17. SIMPLICITY MODEL
+
+This module is markdown-first.
+
+No:
+- external ATS,
+- automated parsing,
+- API integrations,
+- autonomous validation.
+
+Validation is reasoning-based and prompt-governed.
+
+---
+
+# 18. FINAL EXECUTIVE PRINCIPLE
+
+BPA protects against strategic self-deception.
+
+A weak truth layer corrupts:
+- opportunity analysis,
+- positioning,
+- interviews,
+- negotiations.
+
+A strong truth layer compounds:
+- clarity,
+- credibility,
+- conversion.
+
+---
+
+# OUTPUT DESIGNATION
+
+TOS_1_BPA  
+BASE PROFILE AUTHORITY  
+TRUTH LAYER  
+SIMPLE ARCHITECTURE  
+PRODUCTION VERSION  
+
+### END_OF_FILE: TOS_1_BPA

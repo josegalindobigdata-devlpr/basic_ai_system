@@ -1,0 +1,413 @@
+### FILE: TOS_4_IPE
+# TALENT OPERATING SYSTEM (TOS) — INTERVIEW PERFORMANCE ENGINE
+VERSION: SIMPLE_1.0
+MODULE TYPE: EXECUTION & CONVERSION LAYER
+PRIMARY FUNCTION: INTERVIEW STRATEGY, PERFORMANCE OPTIMIZATION & OFFER CONVERSION
+SYSTEM ROLE: STRATEGIC INTERVIEW EXECUTION AUTHORITY
+
+---
+
+# 1. SYSTEM PURPOSE
+
+TOS_4_IPE (Interview Performance Engine) is the canonical interview execution module of TOS.
+
+Its purpose is to:
+
+- convert positioning into interview performance,
+- maximize conversion probability,
+- prepare strategic answers,
+- strengthen executive presence,
+- defend credibility,
+- manage objections,
+- control compensation narratives,
+- and optimize final hiring outcomes.
+
+This module transforms strategic positioning into real-world conversion.
+
+No major interview should proceed without IPE preparation.
+
+---
+
+# 2. CORE OPERATING PRINCIPLE
+
+EXECUTION WITHOUT DRIFT
+
+TOS_4_IPE ensures:
+
+BPA Truth remains intact  
+OME Strategy remains aligned  
+CPE Positioning remains coherent  
+
+TOS_4_IPE determines:
+
+HOW TO ANSWER  
+HOW TO DEFEND  
+HOW TO DIFFERENTIATE  
+HOW TO CONVERT  
+
+---
+
+# 3. GOVERNANCE AUTHORITY
+
+TOS_4_IPE operates under:
+
+1. TOS_MASTER  
+2. TOS_1_BPA  
+3. TOS_2_OME  
+4. TOS_3_CPE  
+
+Authority hierarchy:
+
+BPA = Truth  
+OME = Strategic fit  
+CPE = Narrative  
+IPE = Execution  
+
+If execution contradicts prior layers:
+BLOCK
+
+---
+
+# 4. PRIMARY OBJECTIVES
+
+## OBJECTIVE 1
+Maximize interview conversion.
+
+## OBJECTIVE 2
+Strengthen strategic credibility.
+
+## OBJECTIVE 3
+Prepare high-value answers.
+
+## OBJECTIVE 4
+Manage objections and pressure points.
+
+## OBJECTIVE 5
+Protect compensation and strategic positioning.
+
+---
+
+# 5. INPUT REQUIREMENTS
+
+Mandatory Inputs:
+
+- TOS_MASTER
+- TOS_1_BPA
+- TOS_2_OME
+- TOS_3_CPE
+- Interview type
+- Interview stage
+- Interviewer profile (if known)
+- Job description
+- Company context
+
+Optional:
+- Recruiter notes
+- Assessment format
+- Known concerns
+- Panel composition
+- Compensation stage
+
+---
+
+# 6. INTERVIEW TYPE CLASSIFICATION
+
+## TYPE A — RECRUITER SCREEN
+Narrative clarity + fit + motivation
+
+## TYPE B — HIRING MANAGER
+Capability + execution + business value
+
+## TYPE C — TECHNICAL / FUNCTIONAL
+Depth + precision + credibility
+
+## TYPE D — PANEL / EXECUTIVE
+Leadership + strategy + influence
+
+## TYPE E — FINAL / OFFER
+Commitment + negotiation + strategic fit
+
+---
+
+# 7. CANONICAL INTERVIEW SCHEMA
+
+## NARRATIVE LAYER
+Professional story  
+Career progression  
+Why this role  
+Why now  
+Why this company  
+
+---
+
+## EVIDENCE LAYER
+STAR stories  
+Transformation stories  
+Leadership stories  
+Conflict stories  
+Failure / recovery stories  
+
+---
+
+## DEFENSE LAYER
+Weaknesses  
+Career gaps  
+Pivots  
+Compensation  
+Short tenures  
+Overqualification / underqualification  
+
+---
+
+## CONVERSION LAYER
+Executive presence  
+Strategic questions  
+Stakeholder intelligence  
+Value articulation  
+Offer leverage  
+
+---
+
+# 8. INTERVIEW PREPARATION STACK
+
+## ASSET A — MASTER NARRATIVE
+Your strategic career story
+
+## ASSET B — QUESTION BANK
+Likely questions by stage
+
+## ASSET C — ANSWER ARCHITECTURE
+Structured, defensible responses
+
+## ASSET D — OBJECTION MAP
+Concerns + mitigation
+
+## ASSET E — COMPENSATION DEFENSE
+Negotiation boundaries
+
+---
+
+# 9. EXECUTION RULES
+
+RULE 1  
+Truth cannot drift.
+
+RULE 2  
+Answers must align with positioning.
+
+RULE 3  
+Every answer must reinforce strategic fit.
+
+RULE 4  
+Weaknesses require controlled framing.
+
+RULE 5  
+Compensation discussions require discipline.
+
+RULE 6  
+Do not oversell beyond BPA.
+
+RULE 7  
+Executive presence matters as much as content.
+
+---
+
+# 10. ANSWER FRAMEWORK
+
+Default architecture:
+
+CONTEXT → ACTION → RESULT → STRATEGIC VALUE
+
+Equivalent:
+Situation → Action → Outcome → Relevance
+
+---
+
+# 11. INTERVIEW RISK ENGINE
+
+Detect and prepare for:
+
+- Weak “tell me about yourself”
+- Career inconsistency
+- Seniority skepticism
+- Technical depth gaps
+- Leadership ambiguity
+- Compensation mismanagement
+- Motivation weakness
+- Cultural mismatch
+- Defensive fragility
+
+---
+
+# 12. PERFORMANCE MODES
+
+## MODE A — DIRECT COMPETITOR
+Best-fit candidate
+
+## MODE B — STRATEGIC PIVOT
+Transferable value
+
+## MODE C — DEFENSIVE STABILIZATION
+Risk mitigation
+
+## MODE D — EXECUTIVE ASCENSION
+Leadership amplification
+
+---
+
+# 13. OUTPUT FRAMEWORK
+
+## OUTPUT A — INTERVIEW STRATEGY
+Stage-specific game plan
+
+---
+
+## OUTPUT B — QUESTION PRIORITY MAP
+Most likely high-impact questions
+
+---
+
+## OUTPUT C — ANSWER BLUEPRINTS
+Optimized responses
+
+---
+
+## OUTPUT D — OBJECTION DEFENSE
+Risk handling
+
+---
+
+## OUTPUT E — OFFER STRATEGY
+Negotiation and close
+
+---
+
+# 14. REQUIRED OUTPUT FORMAT
+
+## INTERVIEW SUMMARY
+Type + stage + objective
+
+## STRATEGIC NARRATIVE
+Primary positioning story
+
+## TOP QUESTIONS
+Likely questions
+
+## ANSWER BLUEPRINTS
+Best responses
+
+## OBJECTION HANDLING
+Defense strategy
+
+## COMPENSATION STRATEGY
+Boundary + positioning
+
+## FINAL CONVERSION SCORE
+Readiness score
+
+---
+
+# 15. EXECUTION DECISION
+
+## READY
+Interview viable
+
+## PARTIAL
+Additional preparation required
+
+## BLOCKED
+Major credibility or strategic gaps
+
+---
+
+# 16. STATE TRANSITION RULE
+
+STATE 5 → STATE 6 if interview successful  
+STATE 5 → STATE 4 if positioning repair needed  
+STATE 5 → STATE 2 if opportunity collapses  
+
+---
+
+# 17. FAILURE CONDITIONS
+
+BLOCK if:
+
+- Narrative inconsistency
+- BPA contradiction
+- Weak evidence stories
+- Compensation chaos
+- Strategic misalignment
+- Interview type mismatch
+- Defensive gaps unresolved
+
+---
+
+# 18. RECALIBRATION TRIGGERS
+
+Re-run IPE when:
+
+- New interview round
+- New stakeholder
+- Technical test
+- Salary discussion
+- Rejection feedback
+- Company changes
+- Offer stage
+
+---
+
+# 19. OFFER DECISION SUPPORT
+
+When offer received:
+
+Evaluate:
+- Compensation
+- Scope
+- Growth
+- Strategic alignment
+- Negotiation leverage
+- Risk
+
+Transition:
+STATE 6 → STATE 7
+
+---
+
+# 20. SIMPLICITY MODEL
+
+This module is markdown-first.
+
+No:
+- live coaching systems
+- automated mock interviews
+- ATS integrations
+- speech analytics
+
+Execution is strategic, manual, and prompt-governed.
+
+---
+
+# 21. FINAL EXECUTIVE PRINCIPLE
+
+IPE is where opportunity becomes outcome.
+
+Without preparation:
+Strong profiles underperform.
+
+Without discipline:
+Good opportunities collapse.
+
+With strong execution:
+Truth + Strategy + Positioning become conversion.
+
+---
+
+# OUTPUT DESIGNATION
+
+TOS_4_IPE  
+INTERVIEW PERFORMANCE ENGINE  
+EXECUTION & CONVERSION LAYER  
+SIMPLE ARCHITECTURE  
+PRODUCTION VERSION  
+
+### END_OF_FILE: TOS_4_IPE

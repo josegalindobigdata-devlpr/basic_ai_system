@@ -1,0 +1,393 @@
+### FILE: TOS_2_OME
+# TALENT OPERATING SYSTEM (TOS) — OPPORTUNITY MATCH ENGINE
+VERSION: SIMPLE_1.0
+MODULE TYPE: STRATEGIC EVALUATION LAYER
+PRIMARY FUNCTION: OPPORTUNITY ANALYSIS, SCORING & GO / NO-GO DECISION
+SYSTEM ROLE: STRATEGIC FILTER FOR CAREER DECISIONS
+
+---
+
+# 1. SYSTEM PURPOSE
+
+TOS_2_OME (Opportunity Match Engine) is the canonical opportunity evaluation module of TOS.
+
+Its purpose is to:
+
+- evaluate professional opportunities,
+- score strategic fit,
+- assess alignment with validated profile,
+- identify risks,
+- prevent low-value or misaligned pursuits,
+- prioritize career leverage,
+- and determine GO / NO-GO execution.
+
+This module protects against reactive career decisions.
+
+No positioning or interview execution should proceed without OME evaluation.
+
+---
+
+# 2. CORE OPERATING PRINCIPLE
+
+EVALUATION BEFORE COMMITMENT
+
+Not every opportunity deserves pursuit.
+
+TOS_2_OME determines:
+
+IS THIS ALIGNED?  
+IS THIS STRATEGIC?  
+IS THIS DEFENSIBLE?  
+IS THIS WORTH PURSUING?  
+
+---
+
+# 3. GOVERNANCE AUTHORITY
+
+TOS_2_OME operates under:
+
+1. TOS_MASTER (state + strategic objectives)
+2. TOS_1_BPA (validated professional truth)
+
+If opportunity exceeds BPA truth:
+FLAG RISK
+
+If opportunity violates TOS_MASTER non-negotiables:
+BLOCK
+
+---
+
+# 4. PRIMARY OBJECTIVES
+
+## OBJECTIVE 1
+Evaluate role fit.
+
+## OBJECTIVE 2
+Assess compensation alignment.
+
+## OBJECTIVE 3
+Measure strategic career progression.
+
+## OBJECTIVE 4
+Detect hidden risks.
+
+## OBJECTIVE 5
+Prioritize opportunities by long-term value.
+
+---
+
+# 5. INPUT REQUIREMENTS
+
+Mandatory Inputs:
+
+- Job description
+- Company
+- Title
+- Compensation (or estimate)
+- Location
+- Reporting line (if known)
+- Industry
+- Recruiter notes (if available)
+- Contract type
+- TOS_MASTER
+- TOS_1_BPA
+
+Optional:
+- Glassdoor / market intelligence
+- Team maturity
+- Known risks
+- Hiring urgency
+
+---
+
+# 6. CANONICAL OPPORTUNITY SCHEMA
+
+## ROLE LAYER
+COMPANY:
+ROLE TITLE:
+FUNCTION:
+SENIORITY:
+EMPLOYMENT TYPE:
+LOCATION:
+REMOTE STATUS:
+
+---
+
+## VALUE LAYER
+COMPENSATION:
+BONUS:
+EQUITY:
+BENEFITS:
+CAREER UPSIDE:
+BRAND VALUE:
+
+---
+
+## FIT LAYER
+SKILL MATCH:
+LEADERSHIP MATCH:
+INDUSTRY MATCH:
+EXECUTION MATCH:
+CREDIBILITY MATCH:
+
+---
+
+## STRATEGIC LAYER
+CAREER TRAJECTORY:
+PROMOTION POTENTIAL:
+MARKET POSITIONING:
+NETWORK VALUE:
+CERTIFICATION LEVERAGE:
+
+---
+
+## RISK LAYER
+TITLE INFLATION:
+UNDEREMPLOYMENT:
+SALARY REGRESSION:
+BRAND DAMAGE:
+INSTABILITY:
+MISALIGNMENT:
+
+---
+
+# 7. OPPORTUNITY SCORING MODEL
+
+## SCORE DIMENSIONS (0–10)
+
+### PROFILE FIT
+How well role aligns with BPA truth
+
+### STRATEGIC FIT
+Long-term career value
+
+### COMPENSATION FIT
+Financial alignment
+
+### BRAND FIT
+Employer / market value
+
+### EXECUTION FEASIBILITY
+Likelihood of successful conversion
+
+### RISK LOAD
+Inverse score (higher risk = lower value)
+
+---
+
+# 8. DECISION TIERS
+
+## TIER A — STRATEGIC PRIORITY
+High alignment / high leverage
+
+## TIER B — VIABLE
+Worth pursuing selectively
+
+## TIER C — CONDITIONAL
+Requires caveats or tactical motive
+
+## TIER D — NO-GO
+Strategic misalignment
+
+---
+
+# 9. GO / NO-GO LOGIC
+
+## GO IF:
+- BPA-aligned
+- Compensation viable
+- Strategic progression
+- Positioning feasible
+- Risk acceptable
+
+## CONDITIONAL GO IF:
+- Tactical short-term value
+- Brand leverage
+- Skill expansion
+- Network gain
+
+## NO-GO IF:
+- Strategic regression
+- Major compensation dilution
+- Credibility mismatch
+- Toxic instability
+- False title escalation
+
+---
+
+# 10. EXECUTION RULES
+
+RULE 1  
+No emotional pursuit.
+
+RULE 2  
+No desperation-based application.
+
+RULE 3  
+No title vanity without strategic value.
+
+RULE 4  
+Compensation must support objectives.
+
+RULE 5  
+Strategic trajectory outweighs urgency.
+
+RULE 6  
+High-risk opportunities require explicit rationale.
+
+---
+
+# 11. RISK DETECTION ENGINE
+
+Detect:
+
+- Overqualification
+- Underqualification
+- Compensation trap
+- Title illusion
+- Strategic downgrade
+- Industry lock-in
+- Relocation burden
+- Recruiter opacity
+- Volatility risk
+
+---
+
+# 12. OUTPUT FRAMEWORK
+
+## OUTPUT A — OPPORTUNITY SCORECARD
+Weighted strategic evaluation
+
+---
+
+## OUTPUT B — GO / NO-GO DECISION
+Primary decision
+
+---
+
+## OUTPUT C — RISK REGISTER
+Threat map
+
+---
+
+## OUTPUT D — POSITIONING REQUIREMENT
+If GO, what narrative adaptation is needed
+
+---
+
+# 13. REQUIRED OUTPUT FORMAT
+
+## OPPORTUNITY SUMMARY
+Role + employer + strategic category
+
+## FIT SCORE
+Detailed scoring table
+
+## STRATEGIC VALUE
+Career trajectory analysis
+
+## RISK MATRIX
+Operational + strategic risks
+
+## DECISION
+GO / CONDITIONAL / NO-GO
+
+## NEXT ACTION
+Ignore / Monitor / Apply / Prioritize
+
+---
+
+# 14. STATE TRANSITION RULE
+
+If GO:
+STATE 2 → STATE 3 → TOS_3_CPE
+
+If CONDITIONAL:
+STATE 3 with caveat register
+
+If NO-GO:
+STATE 3 → STATE 2
+
+---
+
+# 15. FAILURE CONDITIONS
+
+BLOCK if:
+
+- Missing role clarity
+- Compensation unknown and materially relevant
+- Strategic contradiction
+- BPA mismatch extreme
+- State violation
+- Opportunity irrationality
+
+---
+
+# 16. RECALIBRATION TRIGGERS
+
+Re-run OME when:
+
+- Compensation changes
+- Scope clarified
+- New interviewer insight
+- Internal referral appears
+- Role materially changes
+- Market shift impacts value
+
+---
+
+# 17. HANDOFF TO TOS_3_CPE
+
+If GO:
+Provide:
+
+- Opportunity score
+- Key strengths to emphasize
+- Critical gaps
+- Competitive narrative
+- Risk mitigation priorities
+- Compensation boundaries
+
+---
+
+# 18. SIMPLICITY MODEL
+
+This module is markdown-first.
+
+No:
+- ATS integrations
+- auto-job scraping
+- salary APIs
+- recruiter automation
+
+Evaluation is strategic, manual, and prompt-governed.
+
+---
+
+# 19. FINAL EXECUTIVE PRINCIPLE
+
+OME exists to preserve career trajectory.
+
+A poor opportunity can:
+- dilute positioning,
+- waste cycles,
+- reduce leverage,
+- and create regression.
+
+A strong opportunity can:
+- compound value,
+- accelerate trajectory,
+- strengthen narrative,
+- and expand strategic ceiling.
+
+---
+
+# OUTPUT DESIGNATION
+
+TOS_2_OME  
+OPPORTUNITY MATCH ENGINE  
+STRATEGIC EVALUATION LAYER  
+SIMPLE ARCHITECTURE  
+PRODUCTION VERSION  
+
+### END_OF_FILE: TOS_2_OME

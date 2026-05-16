@@ -1,0 +1,383 @@
+### FILE: CHANGELOG
+# TALENT OPERATING SYSTEM (TOS) — CHANGELOG
+SYSTEM VERSION: SIMPLE ARCHITECTURE
+CHANGE CONTROL TYPE: MANUAL GOVERNANCE
+PRIMARY FUNCTION: VERSION HISTORY, STRUCTURAL TRACEABILITY & EVOLUTION CONTROL
+
+---
+
+# 1. SYSTEM PURPOSE
+
+CHANGELOG is the canonical historical control module for TOS.
+
+Its purpose is to:
+
+- track all system changes,
+- preserve architectural evolution,
+- maintain version integrity,
+- document structural decisions,
+- control module revisions,
+- provide rollback visibility,
+- and prevent governance drift.
+
+CHANGELOG is the historical memory of TOS architecture.
+
+Without CHANGELOG:
+System coherence degrades over time.
+
+---
+
+# 2. CORE OPERATING PRINCIPLE
+
+DOCUMENT EVERY MATERIAL CHANGE
+
+If a meaningful architectural, strategic, governance, or module update occurs:
+IT MUST BE LOGGED
+
+---
+
+# 3. GOVERNANCE AUTHORITY
+
+CHANGELOG operates under:
+
+TOS_MASTER
+
+CHANGELOG does not override modules.
+
+Its role is:
+Traceability  
+Version control  
+Historical accountability  
+
+---
+
+# 4. CHANGE CLASSIFICATION TYPES
+
+## TYPE A — MAJOR VERSION
+Structural redesign  
+Module addition/removal  
+Governance redesign  
+State machine redesign  
+Architecture simplification  
+
+---
+
+## TYPE B — MINOR VERSION
+Module enhancement  
+Prompt logic improvement  
+Schema expansion  
+New operational rules  
+Execution optimization  
+
+---
+
+## TYPE C — PATCH VERSION
+Bug fix  
+Naming correction  
+Formatting correction  
+Logic clarification  
+Prompt consistency repair  
+
+---
+
+# 5. VERSION FORMAT
+
+MAJOR.MINOR.PATCH
+
+Example:
+
+1.0.0 → Initial production  
+1.1.0 → Added new scoring framework  
+1.1.1 → Fixed state typo  
+
+---
+
+# 6. REQUIRED CHANGE ENTRY SCHEMA
+
+## VERSION:
+## DATE:
+## AUTHOR:
+## CHANGE TYPE:
+## AFFECTED MODULE(S):
+## SUMMARY:
+## REASON:
+## OPERATIONAL IMPACT:
+## BACKWARD COMPATIBILITY:
+## REQUIRED USER ACTION:
+## RISKS:
+## ROLLBACK PATH:
+
+---
+
+# 7. CHANGE GOVERNANCE RULES
+
+RULE 1  
+Every major change requires rationale.
+
+RULE 2  
+Every structural change must identify affected modules.
+
+RULE 3  
+Every state logic change must update TOS_MASTER.
+
+RULE 4  
+Breaking changes must declare compatibility risk.
+
+RULE 5  
+Deprecated logic must remain visible until replaced.
+
+RULE 6  
+No silent governance drift.
+
+---
+
+# 8. BACKWARD COMPATIBILITY FRAMEWORK
+
+## FULLY COMPATIBLE
+No user migration required
+
+## PARTIALLY COMPATIBLE
+Manual updates recommended
+
+## BREAKING
+Prompt architecture requires revision
+
+---
+
+# 9. ROLLBACK FRAMEWORK
+
+Every major or minor version must include:
+
+PREVIOUS STABLE VERSION  
+ROLLBACK CONDITIONS  
+ROLLBACK STEPS  
+
+---
+
+# 10. CHANGE IMPACT CATEGORIES
+
+## ARCHITECTURE
+System structure
+
+## GOVERNANCE
+Rules / sequencing
+
+## MODULE
+Specific prompt module
+
+## SCHEMA
+Data structures
+
+## STATE
+State machine
+
+## STRATEGIC
+Decision frameworks
+
+---
+
+# 11. REQUIRED OUTPUT FORMAT
+
+## CHANGE SUMMARY
+What changed
+
+## WHY IT CHANGED
+Strategic or operational rationale
+
+## IMPACT
+Affected system areas
+
+## COMPATIBILITY
+Safe / caution / breaking
+
+## REQUIRED ACTION
+What user must update
+
+## ROLLBACK
+How to reverse
+
+---
+
+# 12. MASTER VERSION REGISTER
+
+## CURRENT PRODUCTION VERSION
+[Manual update]
+
+## LAST STABLE VERSION
+[Manual update]
+
+## CURRENT ARCHITECTURE
+TOS_SIMPLE
+
+## ACTIVE MODULES
+- TOS_MASTER
+- TOS_1_BPA
+- TOS_2_OME
+- TOS_3_CPE
+- TOS_4_IPE
+- CHANGELOG
+
+---
+
+# 13. CHANGE ENTRY TEMPLATE
+
+---
+
+## VERSION:
+X.X.X
+
+## DATE:
+YYYY-MM-DD
+
+## AUTHOR:
+[Name / Owner]
+
+## CHANGE TYPE:
+MAJOR / MINOR / PATCH
+
+## AFFECTED MODULE(S):
+[List]
+
+## SUMMARY:
+[Short description]
+
+## REASON:
+[Why change was required]
+
+## OPERATIONAL IMPACT:
+[What changes in execution]
+
+## BACKWARD COMPATIBILITY:
+FULL / PARTIAL / BREAKING
+
+## REQUIRED USER ACTION:
+[Manual steps]
+
+## RISKS:
+[Known concerns]
+
+## ROLLBACK PATH:
+[Previous stable version + steps]
+
+---
+
+# 14. INITIAL SYSTEM ENTRY
+
+## VERSION:
+1.0.0
+
+## DATE:
+[Initial deployment date]
+
+## AUTHOR:
+System Owner
+
+## CHANGE TYPE:
+MAJOR
+
+## AFFECTED MODULE(S):
+ALL
+
+## SUMMARY:
+Initial deployment of TOS_SIMPLE architecture
+
+## REASON:
+Migration from enterprise modular architecture to markdown-first portable framework
+
+## OPERATIONAL IMPACT:
+Reduced complexity  
+Higher portability  
+Manual governance  
+Prompt-native deployment
+
+## BACKWARD COMPATIBILITY:
+BREAKING
+
+## REQUIRED USER ACTION:
+Deploy:
+- TOS_MASTER
+- TOS_1_BPA
+- TOS_2_OME
+- TOS_3_CPE
+- TOS_4_IPE
+- CHANGELOG
+
+## RISKS:
+Reduced automation  
+Manual state governance  
+Lower deterministic enforcement
+
+## ROLLBACK PATH:
+Return to pre-simple architecture
+
+---
+
+# 15. MAINTENANCE CADENCE
+
+Recommended review:
+
+MONTHLY:
+Prompt optimization
+
+QUARTERLY:
+Strategic recalibration
+
+MAJOR EVENTS:
+Career pivots  
+Certification  
+Compensation shifts  
+Architecture redesign
+
+---
+
+# 16. FAILURE CONDITIONS
+
+CHANGELOG governance failure occurs if:
+
+- Changes undocumented
+- Module versions inconsistent
+- State machine changed silently
+- Rollback impossible
+- Compatibility unclear
+- Governance drift detected
+
+---
+
+# 17. SIMPLICITY MODEL
+
+This module is markdown-first.
+
+No:
+- git integration,
+- automated versioning,
+- CI/CD,
+- external logging,
+- system diff tools.
+
+All change governance is manual and user-controlled.
+
+---
+
+# 18. FINAL EXECUTIVE PRINCIPLE
+
+CHANGELOG protects TOS from silent degradation.
+
+Without version control:
+Systems fragment.
+
+Without traceability:
+Governance weakens.
+
+Without disciplined updates:
+Prompt ecosystems decay.
+
+---
+
+# OUTPUT DESIGNATION
+
+CHANGELOG  
+VERSION CONTROL & EVOLUTION GOVERNANCE  
+SIMPLE ARCHITECTURE  
+PRODUCTION VERSION  
+
+### END_OF_FILE: CHANGELOG
