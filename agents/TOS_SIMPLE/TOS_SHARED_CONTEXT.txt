@@ -1,0 +1,439 @@
+### FILE: TOS_SHARED_CONTEXT
+
+# TALENT OPERATING SYSTEM (TOS) — SHARED CONTEXT LAYER
+MODULE: TOS_SHARED_CONTEXT
+VERSION: SIMPLE_1.0
+TYPE: BUSINESS
+SYSTEM VERSION: SIMPLE ARCHITECTURE
+MODULE TYPE: CONTEXT GOVERNANCE LAYER
+PRIMARY FUNCTION: CROSS-MODULE CONTEXT CONTINUITY & DRIFT REDUCTION
+SYSTEM ROLE: CANONICAL ACTIVE CONTEXT PACKAGE
+
+
+
+# 1. SYSTEM PURPOSE
+
+TOS_SHARED_CONTEXT is the canonical active-context layer for TOS_SIMPLE.
+
+Its purpose is to:
+
+- preserve operational continuity,
+- reduce context fragmentation,
+- standardize module interoperability,
+- minimize prompt drift,
+- centralize active strategic state,
+- improve portability across chats and Gems,
+- and simplify manual orchestration.
+
+This module acts as the active operational memory layer of TOS.
+
+It does not replace:
+- TOS_MASTER,
+- BPA truth,
+- OME evaluation,
+- CPE positioning,
+- or IPE execution.
+
+Its role is:
+ACTIVE CONTEXT NORMALIZATION.
+
+
+
+# 2. CORE OPERATING PRINCIPLE
+
+ONE ACTIVE CONTEXT
+
+All modules must operate from the same validated active context snapshot.
+
+TOS_SHARED_CONTEXT exists to ensure:
+
+- continuity,
+- consistency,
+- traceability,
+- and interoperability
+
+across:
+
+- ChatGPT Projects
+- Gemini Gems
+- multi-chat workflows
+- manual orchestration systems
+
+
+
+# 3. GOVERNANCE AUTHORITY
+
+TOS_SHARED_CONTEXT operates under:
+
+1. TOS_MASTER
+2. Current validated module outputs
+
+Authority hierarchy:
+
+TOS_MASTER = State authority  
+BPA = Truth authority  
+OME = Evaluation authority  
+CPE = Positioning authority  
+IPE = Execution authority  
+SHARED_CONTEXT = Active operational continuity  
+
+
+
+# 4. EXECUTION RULES
+
+RULE 1  
+Only validated outputs may populate shared context.
+
+RULE 2  
+Shared context cannot override module truth.
+
+RULE 3  
+Deprecated context must be replaced immediately.
+
+RULE 4  
+Every major module execution requires context refresh.
+
+RULE 5  
+All active opportunities must reference current shared context.
+
+RULE 6  
+Context drift must trigger reconciliation before downstream execution.
+
+
+
+# 5. ACTIVE CONTEXT SCHEMA
+
+## SYSTEM IDENTITY
+
+SYSTEM_VERSION:
+ARCHITECTURE:
+SESSION_ID:
+PROFILE_ID:
+PROFILE_VERSION:
+LAST_UPDATED:
+
+
+
+## ACTIVE STATE
+
+CURRENT_STATE:
+NEXT_ALLOWED_STATE:
+ACTIVE_MODULE:
+CURRENT_PHASE:
+VALIDATION_STATUS:
+
+
+
+## ACTIVE PROFESSIONAL PROFILE
+
+TARGET_ROLE:
+TARGET_LEVEL:
+PRIMARY_INDUSTRY:
+YEARS_OF_EXPERIENCE:
+CORE_DISCIPLINES:
+LEADERSHIP_SCOPE:
+GEOGRAPHIC_SCOPE:
+LANGUAGE_STACK:
+CERTIFICATIONS:
+CURRENT_COMPENSATION_TARGET:
+
+
+
+## ACTIVE STRATEGIC OBJECTIVES
+
+PRIMARY_OBJECTIVE:
+SECONDARY_OBJECTIVES:
+NON_NEGOTIABLES:
+ACTIVE_PRIORITIES:
+CURRENT_CONSTRAINTS:
+
+
+
+## PRIMARY OPPORTUNITY
+
+OPPORTUNITY_ID:
+COMPANY:
+ROLE_TITLE:
+OPPORTUNITY_STATUS:
+OME_DECISION:
+STRATEGIC_TIER:
+POSITIONING_MODE:
+INTERVIEW_STAGE:
+COMPENSATION_ALIGNMENT:
+
+## ACTIVE OPPORTUNITIES PIPELINE
+ACTIVE_OPPORTUNITIES:
+- OPPORTUNITY_ID
+- COMPANY
+- ROLE
+- STATUS
+- PRIORITY
+- CURRENT_STAGE
+
+## ACTIVE STRATEGIC POSITIONING
+
+PRIMARY_VALUE_PROPOSITION:
+EXECUTIVE_NARRATIVE:
+CORE_DIFFERENTIATORS:
+MARKET_POSITIONING:
+TOP_STRENGTHS:
+CRITICAL_GAPS:
+RISK_PERCEPTION:
+
+
+
+## ACTIVE RISK REGISTER
+
+STRATEGIC_RISKS:
+POSITIONING_RISKS:
+COMPENSATION_RISKS:
+INTERVIEW_RISKS:
+BLOCKERS:
+OPEN_DEPENDENCIES:
+
+
+
+## ACTIVE EXECUTION STATUS
+
+LAST_COMPLETED_MODULE:
+NEXT_REQUIRED_MODULE:
+LAST_DECISION:
+CURRENT_READINESS:
+REQUIRED_ACTIONS:
+PENDING_VALIDATIONS:
+
+## EXECUTIVE MEMORY SNAPSHOT
+
+CURRENT_STRATEGIC_DIRECTION:
+TOP_ACTIVE_RISKS:
+TOP_PRIORITY_OPPORTUNITIES:
+CURRENT_POSITIONING_THEME:
+CURRENT_EXECUTIVE_NARRATIVE:
+
+# 6. MINIMUM REQUIRED CONTEXT
+
+Every module execution must receive at minimum:
+
+- CURRENT_STATE
+- ACTIVE_MODULE
+- PROFILE_VERSION
+- ACTIVE_OPPORTUNITY
+- LAST_OME_DECISION
+- CURRENT_POSITIONING_MODE
+- ACTIVE_RISKS
+- CURRENT_OBJECTIVE
+
+If minimum context is missing:
+EXECUTION RISK increases.
+
+
+
+# 7. CONTEXT REFRESH TRIGGERS
+
+Refresh TOS_SHARED_CONTEXT when:
+
+- BPA recalibrated
+- New opportunity evaluated
+- GO / NO-GO changes
+- Positioning changes
+- Interview stage changes
+- Compensation changes
+- Strategic priorities shift
+- Risks materially change
+- State transitions occur
+
+
+
+# 8. CONTEXT VALIDATION RULES
+
+Validate:
+
+## STATE CONSISTENCY
+State must align with TOS_MASTER rules.
+
+## PROFILE CONSISTENCY
+Profile version must match latest BPA validation.
+
+## OPPORTUNITY CONSISTENCY
+Opportunity status must match latest OME decision.
+
+## POSITIONING CONSISTENCY
+Narrative must align with latest CPE output.
+
+## EXECUTION CONSISTENCY
+Interview readiness must align with IPE status.
+
+If inconsistencies exist:
+FLAG GOVERNANCE DRIFT.
+
+
+
+# 9. DRIFT DETECTION ENGINE
+
+Potential drift indicators:
+
+- inconsistent state transitions
+- outdated profile versions
+- conflicting narratives
+- duplicated opportunity IDs
+- incompatible compensation targets
+- contradictory positioning modes
+- stale risk registers
+- orphaned opportunities
+
+If detected:
+
+1. Pause downstream execution
+2. Reconcile source modules
+3. Refresh shared context
+4. Update CHANGELOG if structural
+
+
+
+# 10. STANDARD CONTEXT PACKAGE
+
+All module handoffs should include:
+
+## SOURCE MODULE:
+## TARGET MODULE:
+## SESSION_ID:
+## PROFILE_VERSION:
+## OPPORTUNITY_ID:
+## CURRENT_STATE:
+## VALIDATION_STATUS:
+
+
+
+## ATTACHED CONTEXT
+
+- Active opportunity summary
+- Current strategic objective
+- Current positioning mode
+- Active blockers
+- Top risks
+- Last validated decision
+- Current readiness level
+
+
+
+# 11. OPERATIONAL MODES
+
+## MODE A — SINGLE OPPORTUNITY
+One active opportunity.
+
+## MODE B — MULTI-OPPORTUNITY
+Multiple concurrent evaluations.
+
+## MODE C — INTERVIEW PIPELINE
+Several interview stages active simultaneously.
+
+## MODE D — STRATEGIC REPOSITIONING
+Long-term recalibration active.
+
+
+
+# 12. REQUIRED OUTPUT FORMAT
+
+## ACTIVE CONTEXT SUMMARY
+Current operational snapshot
+
+## CURRENT STATE
+Execution phase + status
+
+## ACTIVE PRIORITIES
+Immediate focus areas
+
+## ACTIVE RISKS
+Most critical threats
+
+## NEXT REQUIRED ACTION
+Mandatory next step
+
+## VALIDATION STATUS
+APPROVED / CONDITIONAL / BLOCKED
+
+
+
+# 13. FAILURE CONDITIONS
+
+BLOCK if:
+
+- CURRENT_STATE invalid
+- PROFILE_VERSION outdated
+- ACTIVE_OPPORTUNITY undefined
+- OME decision missing
+- Positioning contradictory
+- Risk register stale
+- State transition invalid
+- Shared context incomplete
+
+
+
+# 14. RECOVERY FRAMEWORK
+
+If context corruption occurs:
+
+1. Revalidate TOS_MASTER
+2. Revalidate latest BPA
+3. Revalidate latest OME
+4. Rebuild active positioning
+5. Refresh risk register
+6. Regenerate TOS_SHARED_CONTEXT
+
+Recovery always prioritizes:
+TRUTH → EVALUATION → POSITIONING → EXECUTION
+
+
+
+# 15. SIMPLICITY MODEL
+
+This module is markdown-first.
+
+No:
+- autonomous memory,
+- databases,
+- APIs,
+- event buses,
+- synchronization engines,
+- hidden orchestration,
+- vector memory,
+- autonomous reconciliation.
+
+All context continuity is:
+manual,
+prompt-governed,
+and user-controlled.
+
+
+
+# 16. FINAL EXECUTIVE PRINCIPLE
+
+TOS_SHARED_CONTEXT exists to preserve coherence across modular execution.
+
+Without shared context:
+modules fragment.
+
+Without continuity:
+strategy drifts.
+
+Without disciplined context governance:
+career orchestration degrades.
+
+Strong shared context creates:
+
+- consistency,
+- interoperability,
+- scalability,
+- and strategic continuity.
+
+
+
+# OUTPUT DESIGNATION
+
+TOS_SHARED_CONTEXT
+SHARED CONTEXT GOVERNANCE LAYER
+CONTEXT CONTINUITY MODULE
+SIMPLE ARCHITECTURE
+PRODUCTION VERSION
+
+### END_OF_FILE: TOS_SHARED_CONTEXT

@@ -1,6 +1,7 @@
 # TOS_SIMPLE — — ARQUITECTURA LIGERA PARA CHATGPT / GEMINI
 
 ## 1. PRINCIPIO CENTRAL
+Prompt-Controlled Strategic System, content:
 1. UN CORE MASTER FILE (markdown)
 Un único archivo .md como autoridad canónica.
 
