@@ -220,6 +220,10 @@ Evita degradación silenciosa del sistema y preserva estabilidad operativa a lar
 Principio operativo
 
 “Document every material change.”
+
+### TOS_MASTER.md
+Gobierno del sistema
+Rol del módulo
 ---
 
 ## 4. Visión Global de la Arquitectura TOS_SIMPLE
@@ -249,10 +253,9 @@ CHANGELOG          → Trazabilidad evolutiva
 Resultado arquitectónico
 
 TOS_SIMPLE funciona como:
-
-framework de orquestación profesional,
-sistema operativo de carrera,
-motor de decisión estratégica,
-arquitectura de prompts modular,
-y capa de gobernanza para workflows basados en LLMs.
+- framework de orquestación profesional,
+- sistema operativo de carrera,
+- motor de decisión estratégica,
+- arquitectura de prompts modular,
+- y capa de gobernanza para workflows basados en LLMs.
 ---
