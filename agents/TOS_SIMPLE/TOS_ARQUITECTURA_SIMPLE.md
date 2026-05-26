@@ -224,6 +224,7 @@ Principio operativo
 ### TOS_MASTER.md
 Gobierno del sistema
 Rol del módulo
+
 ---
 
 ## 4. Visión Global de la Arquitectura TOS_SIMPLE

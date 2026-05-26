@@ -189,3 +189,5 @@ This system works if:
 - you maintain truth
 - you avoid reactive decisions
 
+---
+

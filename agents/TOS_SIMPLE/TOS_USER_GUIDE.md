@@ -174,3 +174,4 @@ Si el chat actual se satura (Gemini empieza a ralentizarse o ignora reglas por e
 
 *** 4. Uso de CHANGELOG: 
 Si alteras conscientemente una variable macro (ej: elevas tu suelo salarial mínimo un 15% debido a una contraoferta), ordénale a la IA: "Registra esta recalibración estructural como un cambio Tipo B en el CHANGELOG" para mantener la trazabilidad de la arquitectura de tu carrera.
+---
