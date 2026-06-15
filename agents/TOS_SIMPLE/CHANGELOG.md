@@ -100,6 +100,14 @@ Example:
 ## RISKS:
 ## ROLLBACK PATH:
 
+## VERSION: 1.2.0
+## DATE: 2026-06-10
+## AUTHOR: Propietario del Sistema / TOS_SIMPLE
+## CHANGE TYPE: MINOR
+## AFFECTED MODULE(S): TOS_3_CPE, TOS_SHARED_CONTEXT
+## SUMMARY: Creación del framework para el Anexo Modular de Proyectos por Dominios Estratégicos.
+## REASON: Romper la ventana de 3 meses de inactividad en entrevistas mediante el aumento drástico del ratio señal/ruido en el CV Extenso solicitado por reclutadores.
+## OPERATIONAL IMPACT: Evita la redundancia en documentos de +2 páginas. Permite al usuario intercambiar los bloques de proyectos adjuntos (SDM, GOV, DLV) según la naturaleza exacta de la oportunidad validada en TOS_2_OME.
 
 # 7. CHANGE GOVERNANCE RULES
 
