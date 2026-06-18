@@ -1,7 +1,6 @@
 # DOCUMENTO DE EXPERIENCIA PROFESIONAL – BASE PROFILE (v3.0 — AUDITADO Y CONSOLIDADO): MASTER_CV_RAW.md
 <!-- #¿Que Gobierna? Datos + decisiones. #Reglas: Fuente única de la verdad para todo. -->
 <!-- # Release_base_profile: v.3.0 -->
-<!-- TOS_SIMPLE v3.0 — Reescritura anti-deslizamiento. Sustituye a v2.0. -->
 
 
 # 1.0   [04/2026-Actual] Senior Transformation & Delivery Advisor
@@ -571,25 +570,25 @@ tiempos de ejecución de procesos operativos.
 •	Periodo: Agosto 2009 – Diciembre 2009
 •	Compañía: Startup Betahaus (freelance)
 1.17.2	Situación/Contexto
-•	Gestión técnica y de producto para una startup europea (Betahaus, Alemania) en el marco de proyectos I+D financiados por la Comisión Europea (Programa Marco FP7). Responsable de la creación y puesta en marcha de una nueva plataforma informacional de reporting analítico.
+•	Gestión técnica en la construcción de un producto de reporting analítico (producto informacional/técnico, no product management) para una startup europea (Betahaus, Alemania), en proyectos I+D de la Comisión Europea (FP7). Participación en producto, liderando el desarrollo del módulo de reporting para entregar un MVP de la plataforma de reporting.
 1.17.3	Responsabilidad/Valor Operativo
 •	Responsable de la definición funcional y técnica de la línea de reporting para sistemas analíticos complejos.
-•	Liderazgo del ciclo de vida de desarrollo del producto de reporting sobre motores de análisis (3.200 horas), asegurando la calidad técnica y la innovación funcional.
-•	Gestión de configuración e implantación del producto.
+•	Participación en el ciclo de vida de desarrollo nuevo producto y Liderazgo del desarrollo del módulo de reporting sobre motores de análisis (3.200 horas), asegurando la calidad técnica y la innovación funcional.
+•	Gestión de configuración e implantación del producto incluyendo la integración del motor de reporting.
 •	Aseguramiento del cumplimiento de los hitos técnicos y entregables exigidos por el marco regulador de la Unión Europea para proyectos de alta tecnología.
 1.17.4	Resultados/Impacto
-•	Desarrollo de un MVP (mínimum viable producto) de plataforma de reporting analítico en el marco del programa europeo FP7, orientado a la validación de capacidades de análisis de datos y cumplimiento de los objetivos técnicos definidos por la Comisión Europea.
+•	Contribución a un MVP (mínimum viable producto) de plataforma de reporting analítico en el marco del programa europeo FP7, orientado a la validación de capacidades de análisis de datos y cumplimiento de los objetivos técnicos definidos por la Comisión Europea.
 •	Diseño e implementación de una arquitectura de reporting basada en tecnologías analíticas (Pentaho, SAS y Oracle OWB), integrando procesos ETL y consolidación de datos para su explotación en entornos de análisis avanzado.
 •	Diseño de la arquitectura de datos y procesos ETL asociados, garantizando la estructuración coherente de los flujos de información y la consistencia del modelo analítico subyacente.
 •	Optimización del proceso de gestión de releases mediante la introducción de prácticas de control de configuración, mejorando la trazabilidad y estabilidad de los despliegues en un entorno de desarrollo experimental.
-•	Ejecución del proyecto con un esfuerzo aproximado de 3.200 horas, asegurando la entrega de los principales hitos técnicos del MVP y la viabilidad de la solución para su evolución futura.
+•	Ejecución del proyecto con un esfuerzo de 3.200 horas, asegurando la entrega de los principales hitos técnicos del MVP y la viabilidad de la solución para su evolución futura.
 1.17.5	Tecnología/Herramientas
 •	Pentaho Suite, SAS Analytics, Oracle Warehouse Builder (OWB), ITIL
 1.17.6	Area funcional/Regulatoria
 •	Plataforma Informacional / Reporting
 1.17.7	Gestión
 •	PMI/PMBOK
-1.17.8	Arquitectura de producto
+1.17.8	Arquitectura técnica (reporting)
 •	Utilizando Pentaho Suite para la capa de visualización, SAS Analytics como motor de análisis avanzado. Diseño de la arquitectura de datos y procesos ETL mediante Oracle Warehouse Builder (OWB), asegurando la integridad de la plataforma informacional. ITIL para la gestión de cambios y releases.
 
  
@@ -905,4 +904,13 @@ Motivo:
   la trayectoria empleada. La asimetría es intencional, no una omisión.
 Argumentario entrevista: "El CV recoge mi trayectoria en posiciones permanentes; el rol de advisor es la transición actual mientras cierro mi próxima posición ejecutiva permanente. Por eso aparece
 en LinkedIn —que refleja mi situación hoy— y no en el CV, que prioriza mi recorrido consolidado."
+## Bloque 1.17 — Naturaleza y alcance (clarificación anti-ambigüedad)
+Decisión documentada:
+- Fue un PRODUCTO DE REPORTING analítico (técnico/informacional), NO product management.
+- Participación en UNA PARTE del producto para entregar un MVP; no liderazgo del ciclo
+  de vida completo ni de la plataforma entera.
+- Sin métricas de impacto específicas (alcance acotado, 2009); se mantiene cualitativo.
+- Uso en entregables: NO citar como product management ni como logro de cabecera.
+  Admisible solo como "literacy" de ciclo de producto/MVP si una oferta lo exige.
+  Naturaleza más próxima a DLV (datos/reporting) que a Producto.
 ---

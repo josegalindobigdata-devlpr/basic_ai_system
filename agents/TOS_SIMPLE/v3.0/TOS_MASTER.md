@@ -18,6 +18,7 @@ titular, ya decidido).
 ## 2. ARQUITECTURA Y AUTORIDAD (sin cambios)
 
 - **CAPA DATO** (SSOT, se cita literal): `FACTS_SHEET > MASTER_CV_RAW > TARGET_POSITIONS_PROFILE`.
+  Derivado de consulta condicional (CPE/IPE): `PORTFOLIO_CAPABILITIES` (proyección de MASTER, gana MASTER).
 - **CAPA MÉTODO** (gobierna el cómo, no el qué; no contiene datos): `BPA, OME, CPE, IPE`.
 - **CAPA GOBIERNO**: `TOS_MASTER, TOS_SHARED_CONTEXT, CHANGELOG`.
 

@@ -37,6 +37,10 @@ El sistema se compone de tres capas con responsabilidades **disjuntas**:
   decisiones cronológicas documentadas (decimales solo para auditoría interna).
 - `TARGET_POSITIONS_PROFILE.md` — matriz de los 3 Roles Ancla (SDM, GOV, DLV):
   dolores de cliente, keywords ATS y estrategia de posicionamiento.
+- `PORTFOLIO_CAPABILITIES.md` — **artefacto DERIVADO (proyección de `MASTER_CV_RAW.md`)**:
+  inventario STAR/CAR normalizado (23 bloques de experiencia) listo para ensamblar CV
+  y respaldar entrevista. NO es SSOT — toda métrica traza al MASTER.
+  **Carga condicional** (solo CPE/IPE). Si contradice al MASTER, gana el MASTER.
 
 ### CAPA MÉTODO — Motores. Gobiernan el CÓMO, nunca el QUÉ. NO contienen datos.
 - `TOS_1_BPA.md` — método de validación de verdad profesional (valida y apunta a la
@@ -57,7 +61,7 @@ El sistema se compone de tres capas con responsabilidades **disjuntas**:
 
 Orden de precedencia (de mayor a menor) ante cualquier contradicción:
 
-1. **CAPA DATO** (FACTS_SHEET > MASTER_CV_RAW > TARGET_POSITIONS_PROFILE)
+1. **CAPA DATO** (FACTS_SHEET > MASTER_CV_RAW > TARGET_POSITIONS_PROFILE > PORTFOLIO_CAPABILITIES [derivado])
 2. **TOS_MASTER** (estado y secuencia)
 3. **CAPA MÉTODO** (BPA / OME / CPE / IPE)
 4. **TOS_SHARED_CONTEXT** (continuidad)
@@ -70,7 +74,8 @@ Reglas de resolución:
   nombres o titulares.
 - TOS_MASTER gobierna en qué estado estás y qué transición es válida — **nunca** los datos.
 - Si el SHARED_CONTEXT contradice un dato validado, **prevalece el dato**.
-
+- Si `PORTFOLIO_CAPABILITIES` contradice a `MASTER_CV_RAW`, **prevalece MASTER_CV_RAW**
+  (el portfolio es una proyección, no la fuente).
 ---
 
 ## 3. CONTRATO ANTI-DESLIZAMIENTO (obligatorio en todo entregable)
@@ -124,6 +129,9 @@ el resto se lee si existe y aporta):
 1. `TOS_MASTER` (precedencia de capas y secuencia del pipeline)
 2. `TOS_SHARED_CONTEXT` (oportunidad/contexto activo, si lo hay)
 3. CAPA DATO relevante (FACTS / MASTER_CV / TARGET_POSITIONS) — **OBLIGATORIO**
+3-bis. CATÁLOGO DE EXPERIENCIA (condicional): si ACTIVE_MODULE = CPE o IPE, carga
+       `PORTFOLIO_CAPABILITIES.md` como catálogo de bloques ensamblables. En OME, BPA
+       o conversación de estrategia NO se carga (evita sobrecarga de contexto).
 4. Motor de MÉTODO correspondiente (BPA / OME / CPE / IPE)
 5. Objetivo estratégico (fijo) y bloqueos activos, si existen
 
