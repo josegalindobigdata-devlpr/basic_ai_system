@@ -1,8 +1,9 @@
 # TALENT OPERATING SYSTEM (TOS) — CHANGELOG
+<!-- TOS_SIMPLE v2.0 — Reescritura anti-deslizamiento. Sustituye a v1.0. -->
 MODULE: CHANGELOG
-VERSION: SIMPLE_1.0
+VERSION: SIMPLE_2.0
 TYPE: GOVERNANCE
-SYSTEM VERSION: SIMPLE ARCHITECTURE
+SYSTEM VERSION: SIMPLE_2.0 (3-LAYER ARCHITECTURE)
 CHANGE CONTROL TYPE: MANUAL GOVERNANCE
 PRIMARY FUNCTION: VERSION HISTORY, STRUCTURAL TRACEABILITY & EVOLUTION CONTROL
 ARCHITECTURE: TOS_SIMPLE
@@ -109,6 +110,55 @@ Example:
 ## REASON: Romper la ventana de 3 meses de inactividad en entrevistas mediante el aumento drástico del ratio señal/ruido en el CV Extenso solicitado por reclutadores.
 ## OPERATIONAL IMPACT: Evita la redundancia en documentos de +2 páginas. Permite al usuario intercambiar los bloques de proyectos adjuntos (SDM, GOV, DLV) según la naturaleza exacta de la oportunidad validada en TOS_2_OME.
 
+---
+
+## VERSION: 2.0.0
+## DATE: 2026-06-17
+## AUTHOR: Propietario del Sistema / TOS_SIMPLE
+## CHANGE TYPE: MAJOR
+## AFFECTED MODULE(S): INSTRUCCIONES_PERSONALIZADAS (proyecto), TOS_MASTER, TOS_1_BPA, TOS_SHARED_CONTEXT, CHANGELOG; integración formal de la CAPA DATO (FACTS_SHEET, MASTER_CV_RAW, TARGET_POSITIONS_PROFILE)
+## SUMMARY: Refactor a arquitectura de 3 capas con responsabilidades disjuntas — DATA (SSOT) / METHOD (motores) / GOVERNANCE (control) — y jerarquía de autoridad inequívoca con la Regla de Oro "el DATO manda sobre el MÉTODO".
+## REASON: Eliminar el deslizamiento causado por doble fuente de verdad: el BPA se declaraba "single source of truth" pero estaba vacío, mientras los ficheros de datos reales (FACTS/MASTER_CV/TARGET) competían como verdad sin figurar en la jerarquía de gobierno.
+## OPERATIONAL IMPACT:
+- Los 3 ficheros DATO entran formalmente en la jerarquía de autoridad de TOS_MASTER (§1A, §12, §13, §15).
+- El BPA se reconvierte de "capa de verdad" a "método de validación que apunta a la CAPA DATO".
+- Las instrucciones de proyecto pasan a orquestar las 3 capas y suspenden el comportamiento generalista en la producción de datos.
+- Corrección de naming: FACTS_SHEET.md (antes referenciado como FACTS_SHEETS.md).
+- TOS_SHARED_CONTEXT desembebido de las instrucciones (eliminada duplicación de ~250 líneas); permanece como fichero de conocimiento.
+- Sincronización de versión: SYSTEM VERSION = SIMPLE_2.0 (3-LAYER ARCHITECTURE) estampado en TODOS los módulos de sistema. VERSION de módulo subido a SIMPLE_2.0 en MASTER, BPA, OME, CPE, SHARED_CONTEXT y CHANGELOG. Se preservan los linajes propios: TOS_4_IPE (ANCHORED_OPTIMIZED_1.2) y la CAPA DATO (FACTS_SHEET v3.0, etc.) mantienen su versionado independiente.
+## BACKWARD COMPATIBILITY: PARTIAL
+## REQUIRED USER ACTION:
+1. Reemplazar en el proyecto: INSTRUCCIONES_PERSONALIZADAS.md (v2.0), TOS_MASTER.md (SIMPLE_2.0), CHANGELOG.md.
+2. (Recomendado) Reconvertir TOS_1_BPA a validador y alinear la jerarquía de TOS_SHARED_CONTEXT.md.
+3. Verificar que FACTS_SHEET.md, MASTER_CV_RAW.md y TARGET_POSITIONS_PROFILE.md están cargados como conocimiento.
+## RISKS: Entregables previos generados bajo v1.x pueden contener datos no trazables a la CAPA DATO; revalidar antes de reutilizar.
+## ROLLBACK PATH: Versión estable previa 1.2.0 — restaurar INSTRUCCIONES_PERSONALIZADAS v1.0 y TOS_MASTER SIMPLE_1.0; readmitir el SHARED_CONTEXT embebido.
+
+## MODULE COMPATIBILITY MATRIX (2.0.0)
+
+| Module | Compatible | Action Required |
+|---|---|---|
+| INSTRUCCIONES_PERSONALIZADAS | BREAKING | Sustituir por v2.0 |
+| TOS_MASTER | PARTIAL | Sustituir por SIMPLE_2.0 |
+| TOS_1_BPA | FULL | Reconvertido a validador (hecho v2.0.1) |
+| TOS_SHARED_CONTEXT | FULL | Jerarquía alineada y desembebido (hecho v2.0.1) |
+| FACTS_SHEET / MASTER_CV_RAW / TARGET_POSITIONS | FULL | Confirmar carga como SSOT |
+| TOS_2_OME / TOS_3_CPE / TOS_4_IPE | FULL | Solo re-estampado de versión (sin cambio de lógica) |
+| CHANGELOG | FULL | Actualizado en esta entrada |
+
+## VERSION: 2.0.1
+## DATE: 2026-06-18
+## AUTHOR: Propietario del Sistema / TOS_SIMPLE
+## CHANGE TYPE: PATCH
+## AFFECTED MODULE(S): TOS_1_BPA, TOS_SHARED_CONTEXT, TOS_MASTER, INSTRUCCIONES_PERSONALIZADAS
+## SUMMARY: Cierre de migración 2.0.0 (BPA validador, SHARED desembebido) y unificación de nomenclatura de campos de contexto.
+## REASON: La matriz 2.0.0 marcaba ítems pendientes ya ejecutados; además el campo de decisión OME (LAST_OME_DECISION) y POSITIONING_MODE divergían entre esquema, header y GEMA.
+## OPERATIONAL IMPACT: Sin cambio de lógica. Campo canónico unificado a LAST_OME_DECISION y POSITIONING_MODE en todos los ficheros.
+## BACKWARD COMPATIBILITY: FULL
+## REQUIRED USER ACTION: Ninguna.
+## RISKS: Ninguno.
+## ROLLBACK PATH: 2.0.0.
+
 # 7. CHANGE GOVERNANCE RULES
 
 RULE 1  
@@ -214,21 +264,30 @@ How to reverse
 # 12. MASTER VERSION REGISTER
 
 ## CURRENT PRODUCTION VERSION
-[Manual update]
+2.0.1 — Three-layer architecture (DATA / METHOD / GOVERNANCE) · migración 2.0.0 cerrada
 
 ## LAST STABLE VERSION
-[Manual update]
+2.0.0.
 
 ## CURRENT ARCHITECTURE
 TOS_SIMPLE
 
 ## ACTIVE MODULES
-- TOS_MASTER
-- TOS_SHARED_CONTEXT
+
+### DATA LAYER (SSOT)
+- FACTS_SHEET
+- MASTER_CV_RAW
+- TARGET_POSITIONS_PROFILE
+
+### METHOD LAYER
 - TOS_1_BPA
 - TOS_2_OME
 - TOS_3_CPE
 - TOS_4_IPE
+
+### GOVERNANCE LAYER
+- TOS_MASTER
+- TOS_SHARED_CONTEXT
 - CHANGELOG
 
 

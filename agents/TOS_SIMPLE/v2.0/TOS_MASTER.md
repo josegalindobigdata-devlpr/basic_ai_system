@@ -1,8 +1,9 @@
 # TALENT OPERATING SYSTEM (TOS) — MASTER CONTROL FILE
+<!-- TOS_SIMPLE v2.0 — Reescritura anti-deslizamiento. Sustituye a v1.0. -->
 MODULE: TOS_MASTER
-VERSION: SIMPLE_1.0
+VERSION: SIMPLE_2.0
 TYPE: GOVERNANCE
-SYSTEM VERSION: SIMPLE ARCHITECTURE
+SYSTEM VERSION: SIMPLE_2.0 (3-LAYER ARCHITECTURE)
 ARCHITECTURE: MARKDOWN-FIRST / PROMPT-ORCHESTRATED
 SYSTEM TYPE: PORTABLE STRATEGIC DECISION FRAMEWORK
 PRIMARY DOMAIN: TALENT | CAREER | POSITIONING | INTERVIEW
@@ -32,11 +33,45 @@ across all TOS modules:
 
 
 
+# 1A. THREE-LAYER ARCHITECTURE & DATA AUTHORITY
+
+TOS_SIMPLE operates on three layers with disjoint responsibilities:
+
+## DATA LAYER (SSOT) — Canonical source of truth. Cited LITERALLY.
+- FACTS_SHEET.md — invariable constants: names, headline figures, anchor-role
+  titles, certifications, education, citation rules. Final word in validation.
+- MASTER_CV_RAW.md — full career history, exact per-role metrics, documented
+  chronological decisions (decimals for internal audit only).
+- TARGET_POSITIONS_PROFILE.md — matrix of the 3 Anchor Roles (SDM, GOV, DLV):
+  client pains, ATS keywords, positioning strategy.
+
+## METHOD LAYER — Engines. Govern the HOW, never the WHAT. Contain no data.
+- TOS_1_BPA (truth validation method — validates and points to the DATA LAYER;
+  it is NOT the source of the datum)
+- TOS_2_OME, TOS_3_CPE, TOS_4_IPE
+
+## GOVERNANCE LAYER — State, sequence, continuity.
+- TOS_MASTER, TOS_SHARED_CONTEXT, CHANGELOG
+
+## AUTHORITY HIERARCHY (precedence on any conflict, highest first)
+1. DATA LAYER (FACTS_SHEET > MASTER_CV_RAW > TARGET_POSITIONS_PROFILE)
+2. TOS_MASTER (state & sequence)
+3. METHOD LAYER (BPA / OME / CPE / IPE)
+4. TOS_SHARED_CONTEXT (continuity)
+
+GOLDEN RULE: DATA prevails over METHOD. If an engine suggests anything that
+contradicts a DATA LAYER file, the DATA wins. METHOD governs process and
+structure, never figures, names or titles. If a required datum is absent from the
+DATA LAYER, BLOCK — never invent or infer it.
+
+
+
 # 2. CORE OPERATING PRINCIPLE
 
-TRUTH → EVALUATION → POSITIONING → EXECUTION
+DATA (SSOT) → TRUTH → EVALUATION → POSITIONING → EXECUTION
 
-No downstream action may violate upstream truth.
+No downstream action may violate upstream truth, and no truth, evaluation,
+positioning or execution may override the DATA LAYER.
 
 Mandatory sequence:
 
@@ -83,6 +118,9 @@ Secure senior PM / transformation / strategy role aligned with compensation and 
 - Sector restrictions
 - Ethical constraints
 - Geographic limits
+
+
+
 
 
 
@@ -323,6 +361,20 @@ NO-GO if:
 
 # 12. MODULE DIRECTORY
 
+## DATA LAYER (SSOT) — Cited literally; final word in validation
+### FACTS_SHEET.md
+Purpose: invariable profile constants (names, headline figures, anchor titles,
+certifications, education, citation rules).
+Authority: highest. Overrides every method and narrative.
+
+### MASTER_CV_RAW.md
+Purpose: full career history and exact per-role metrics (internal audit).
+
+### TARGET_POSITIONS_PROFILE.md
+Purpose: matrix of the 3 Anchor Roles (SDM, GOV, DLV) — pains, ATS keywords,
+positioning strategy.
+
+
 ## TOS_SHARED_CONTEXT
 Purpose:
 Operational continuity and shared context governance
@@ -384,9 +436,13 @@ READ ORDER:
 1. TOS_MASTER
 2. TOS_SHARED_CONTEXT
 3. CURRENT_STATE
-4. Relevant module
-5. Active blockers
-6. Strategic objective
+4. DATA LAYER (FACTS_SHEET / MASTER_CV_RAW / TARGET_POSITIONS_PROFILE)
+5. Relevant method module (BPA / OME / CPE / IPE)
+6. Active blockers
+7. Strategic objective
+
+Reminder: any datum produced must be traceable to the DATA LAYER. If method and
+data disagree, the data wins (see §1A Golden Rule).
 
 
 
@@ -418,6 +474,11 @@ Protect long-term strategic value over short-term urgency.
 
 RULE 6
 Manual state updates required after every major transition.
+
+RULE 7
+DATA LAYER prevails over METHOD. Cite DATA LAYER values literally; never invent,
+infer or round a profile datum that is absent. If method and data conflict, the
+data wins.
 
 
 

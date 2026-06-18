@@ -1,8 +1,9 @@
 # TALENT OPERATING SYSTEM (TOS) — SHARED CONTEXT LAYER
+<!-- TOS_SIMPLE v3.0 — Reescritura anti-deslizamiento. Sustituye a v2.0. -->
 MODULE: TOS_SHARED_CONTEXT
-VERSION: SIMPLE_1.0
+VERSION: SIMPLE_3.0
 TYPE: BUSINESS
-SYSTEM VERSION: SIMPLE ARCHITECTURE
+SYSTEM VERSION: SIMPLE_3.0 (3-LAYER ARCHITECTURE)
 MODULE TYPE: CONTEXT GOVERNANCE LAYER
 PRIMARY FUNCTION: CROSS-MODULE CONTEXT CONTINUITY & DRIFT REDUCTION
 SYSTEM ROLE: CANONICAL ACTIVE CONTEXT PACKAGE
@@ -26,8 +27,9 @@ Its purpose is to:
 This module acts as the active operational memory layer of TOS.
 
 It does not replace:
+- the DATA LAYER (FACTS_SHEET / MASTER_CV_RAW / TARGET_POSITIONS_PROFILE),
 - TOS_MASTER,
-- BPA truth,
+- BPA validation,
 - OME evaluation,
 - CPE positioning,
 - or IPE execution.
@@ -68,12 +70,16 @@ TOS_SHARED_CONTEXT operates under:
 
 Authority hierarchy:
 
+DATA LAYER = Truth authority (SSOT: FACTS_SHEET > MASTER_CV_RAW > TARGET_POSITIONS_PROFILE)  
 TOS_MASTER = State authority  
-BPA = Truth authority  
+BPA = Truth validation method (validates against the DATA LAYER; not the data source)  
 OME = Evaluation authority  
 CPE = Positioning authority  
 IPE = Execution authority  
 SHARED_CONTEXT = Active operational continuity  
+
+Golden rule: DATA prevails over METHOD. If any module conflicts with the DATA
+LAYER, the DATA LAYER wins.
 
 
 
@@ -153,7 +159,7 @@ OPPORTUNITY_ID:
 COMPANY:
 ROLE_TITLE:
 OPPORTUNITY_STATUS:
-OME_DECISION:
+LAST_OME_DECISION:
 STRATEGIC_TIER:
 POSITIONING_MODE:
 INTERVIEW_STAGE:
@@ -217,7 +223,7 @@ Every module execution must receive at minimum:
 - PROFILE_VERSION
 - ACTIVE_OPPORTUNITY
 - LAST_OME_DECISION
-- CURRENT_POSITIONING_MODE
+- POSITIONING_MODE
 - ACTIVE_RISKS
 - CURRENT_OBJECTIVE
 

@@ -1,31 +1,43 @@
 # TALENT OPERATING SYSTEM (TOS) — BASE PROFILE AUTHORITY
+<!-- TOS_SIMPLE v2.0 — Reescritura anti-deslizamiento. Sustituye a v1.0. -->
 MODULE: TOS_1_BPA
-VERSION: SIMPLE_1.0
+VERSION: SIMPLE_2.0
 TYPE: BUSINESS
-SYSTEM VERSION: SIMPLE ARCHITECTURE
-MODULE TYPE: TRUTH LAYER
-PRIMARY FUNCTION: PROFESSIONAL BASELINE GOVERNANCE
-SYSTEM ROLE: SINGLE SOURCE OF PROFESSIONAL TRUTH
+SYSTEM VERSION: SIMPLE_2.0 (3-LAYER ARCHITECTURE)
+MODULE TYPE: TRUTH VALIDATION METHOD
+PRIMARY FUNCTION: PROFESSIONAL BASELINE VALIDATION AGAINST THE DATA LAYER
+SYSTEM ROLE: TRUTH VALIDATION ENGINE (POINTS TO DATA LAYER; NOT THE SOURCE OF DATA)
 
 
 
 # 1. SYSTEM PURPOSE
 
-TOS_1_BPA (Base Profile Authority) is the canonical professional truth module of TOS.
+TOS_1_BPA (Base Profile Authority) is the truth VALIDATION method of TOS.
+
+IMPORTANT — DATA LAYER BINDING:
+TOS_1_BPA does NOT store or define profile data. The canonical professional truth
+lives exclusively in the DATA LAYER (SSOT):
+- FACTS_SHEET.md (final word on names, figures, titles, certifications, citation rules)
+- MASTER_CV_RAW.md (full career history and exact per-role metrics)
+- TARGET_POSITIONS_PROFILE.md (the 3 Anchor Roles matrix)
+
+BPA's job is to VALIDATE that any baseline, narrative or claim is consistent with
+the DATA LAYER, and to flag gaps, contradictions or inflation. Where BPA reasoning
+and the DATA LAYER disagree, the DATA LAYER prevails.
 
 Its purpose is to:
 
-- establish validated professional identity,
-- define real capabilities,
-- consolidate career history,
+- validate professional identity against the DATA LAYER,
+- confirm real capabilities are defensible,
+- check career-history consistency,
 - normalize strategic strengths,
 - identify positioning boundaries,
 - detect profile gaps,
 - and prevent narrative distortion.
 
-This module governs all downstream modules.
+This module validates all downstream modules.
 
-No evaluation, positioning, or interview execution may override BPA truth.
+No evaluation, positioning, or interview execution may override DATA LAYER truth.
 
 
 
@@ -35,24 +47,21 @@ TRUTH BEFORE POSITIONING
 
 If profile truth is inaccurate, all downstream strategic outputs degrade.
 
-TOS_1_BPA defines:
-
-WHO YOU ARE  
-WHAT YOU HAVE DONE  
-WHAT YOU CAN DEFEND  
-WHAT YOU SHOULD PURSUE  
+TOS_1_BPA validates against the DATA LAYER
 
 
 
 # 3. GOVERNANCE AUTHORITY
 
-TOS_1_BPA is subordinate only to:
+TOS_1_BPA is subordinate to:
 
-TOS_MASTER
+1. DATA LAYER (FACTS_SHEET > MASTER_CV_RAW > TARGET_POSITIONS_PROFILE) — truth source
+2. TOS_MASTER — state and sequence
 
 If inconsistencies exist:
-TOS_MASTER state rules prevail  
-BPA profile truth prevails over downstream narrative
+DATA LAYER values prevail (they are the SSOT, cited literally)
+TOS_MASTER state rules govern sequencing
+BPA validates downstream narrative against both
 
 TOS_1_BPA also consumes:
 
@@ -64,8 +73,8 @@ Purpose:
 - maintain state alignment
 - reduce downstream context drift
 
-If shared context conflicts with validated truth:
-BPA truth prevails
+If shared context conflicts with the DATA LAYER:
+DATA LAYER prevails
 
 # 4. PRIMARY OBJECTIVES
 
@@ -111,6 +120,11 @@ Mandatory Inputs:
 
 
 # 6. CANONICAL PROFILE SCHEMA
+
+NOTE: These fields are NOT filled in here. They are a VALIDATION CHECKLIST: each
+value must be read from and verified against the DATA LAYER (FACTS_SHEET.md,
+MASTER_CV_RAW.md, TARGET_POSITIONS_PROFILE.md). BPA confirms consistency and flags
+any field that is missing, contradictory or inflated relative to the SSOT.
 
 ## IDENTITY LAYER
 PROFILE_ID:
@@ -260,7 +274,7 @@ RULE 4
 No strategic positioning beyond validated capability.
 
 RULE 5  
-All downstream modules must inherit BPA truth.
+All downstream modules must inherit DATA LAYER truth, as validated by BPA.
 
 
 
