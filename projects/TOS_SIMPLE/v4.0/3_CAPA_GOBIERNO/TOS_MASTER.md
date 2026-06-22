@@ -1,7 +1,8 @@
 # TOS_MASTER — CONTROL FILE (LEAN)
-<!-- TOS_SIMPLE v3.0 — Simplificación mono-usuario, perfil fijo. Sustituye a v2.0. -->
+<!-- TOS_SIMPLE v4.0 — Arquitectura de 4 capas (+ CAPA ENTREGABLE). Sustituye a v3.x. -->
+
 MODULE: TOS_MASTER
-VERSION: SIMPLE_3.0
+VERSION: SIMPLE_4.0
 TYPE: GOVERNANCE
 
 ---
@@ -15,15 +16,22 @@ titular, ya decidido).
 
 ---
 
-## 2. ARQUITECTURA Y AUTORIDAD (sin cambios)
+## 2. ARQUITECTURA Y AUTORIDAD (v4.0: + CAPA ENTREGABLE)
 
-- **CAPA DATO** (SSOT, se cita literal): `FACTS_SHEET > MASTER_CV_RAW > TARGET_POSITIONS_PROFILE`.
+- **CAPA DATO** (SSOT, se cita literal): `FACT_SHEETS > MASTER_CV_RAW > TARGET_POSITIONS_PROFILE`.
   Derivado de consulta condicional (CPE/IPE): `PORTFOLIO_CAPABILITIES` (proyección de MASTER, gana MASTER).
 - **CAPA MÉTODO** (gobierna el cómo, no el qué; no contiene datos): `BPA, OME, CPE, IPE`.
 - **CAPA GOBIERNO**: `TOS_MASTER, TOS_SHARED_CONTEXT, CHANGELOG`.
+- **CAPA ENTREGABLE** (outputs validados; sin autoridad sobre las capas superiores):
+  - **Tier 1 — CV ANCLA BASE**: `CV_ANCLA_SDM_ESP, CV_ANCLA_GOV_ESP, CV_ANCLA_DLV_ESP` —
+    congelados y versionados (`BASED_ON: MASTER_CV_RAW vX.Y`); son proyecciones del MASTER.
+  - **Tier 2 — CV ADAPTADO**: salida **efímera** de CPE por oportunidad (ancla base + adiciones
+    de PORTFOLIO + matiz). No es fichero gobernado ni SSOT; ningún motor lo consulta como verdad.
 
-**Jerarquía (mayor → menor):** DATO > TOS_MASTER > MÉTODO > SHARED_CONTEXT.
+**Jerarquía (mayor → menor):** DATO > TOS_MASTER > MÉTODO > SHARED_CONTEXT > ENTREGABLE.
 **REGLA DE ORO:** el DATO manda sobre el MÉTODO. Dato de perfil ausente = BLOQUEO, nunca invención.
+**REGLA DE ENTREGABLE:** un CV Ancla (Tier 1) que contradiga al MASTER se **regenera**, nunca
+corrige al MASTER. Si el MASTER cambia de versión, los anclas quedan `STALE` hasta re-validación por CPE.
 
 ---
 
@@ -76,10 +84,10 @@ La falta de datos de la **OFERTA** no bloquea: degrada con `CONFIDENCE` y se avi
 
 ## 7. CONTINUIDAD
 
-- `TOS_SHARED_CONTEXT` mantiene oportunidad activa y riesgos; no sobreescribe DATO ni MÉTODO.
-- `CHANGELOG` registra cambios metodológicos e hitos.
+- `TOS_SHARED_CONTEXT.md` mantiene oportunidad activa y riesgos; no sobreescribe DATO ni MÉTODO.
+- `CHANGELOG.md` registra cambios metodológicos e hitos.
 
 ---
 
 # OUTPUT DESIGNATION
-TOS_MASTER · LEAN CONTROL FILE · SIMPLE 3.0
+TOS_MASTER · LEAN CONTROL FILE · SIMPLE 4.0

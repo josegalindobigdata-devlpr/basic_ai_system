@@ -17,9 +17,9 @@ TOS_1_BPA (Base Profile Authority) is the truth VALIDATION method of TOS.
 IMPORTANT — DATA LAYER BINDING:
 TOS_1_BPA does NOT store or define profile data. The canonical professional truth
 lives exclusively in the DATA LAYER (SSOT):
-- FACTS_SHEET.md (final word on names, figures, titles, certifications, citation rules)
-- MASTER_CV_RAW.md (full career history and exact per-role metrics)
-- TARGET_POSITIONS_PROFILE.md (the 3 Anchor Roles matrix)
+- `MASTER_CV_RAW.md` (final word on names, figures, titles, certifications, citation rules)
+- `MASTER_CV_RAW.md` (full career history and exact per-role metrics)
+- `TARGET_POSITIONS_PROFILE.md` (the 3 Anchor Roles matrix)
 
 BPA's job is to VALIDATE that any baseline, narrative or claim is consistent with
 the DATA LAYER, and to flag gaps, contradictions or inflation. Where BPA reasoning
@@ -55,7 +55,7 @@ TOS_1_BPA validates against the DATA LAYER
 
 TOS_1_BPA is subordinate to:
 
-1. DATA LAYER (FACTS_SHEET > MASTER_CV_RAW > TARGET_POSITIONS_PROFILE) — truth source
+1. DATA LAYER (FACT_SHEETS > MASTER_CV_RAW > TARGET_POSITIONS_PROFILE) — truth source
 2. TOS_MASTER — state and sequence
 
 If inconsistencies exist:
@@ -122,8 +122,8 @@ Mandatory Inputs:
 # 6. CANONICAL PROFILE SCHEMA
 
 NOTE: These fields are NOT filled in here. They are a VALIDATION CHECKLIST: each
-value must be read from and verified against the DATA LAYER (FACTS_SHEET.md,
-MASTER_CV_RAW.md, TARGET_POSITIONS_PROFILE.md). BPA confirms consistency and flags
+value must be read from and verified against the DATA LAYER (`FACT_SHEETS.md`,
+`MASTER_CV_RAW.md`, `TARGET_POSITIONS_PROFILE.md`). BPA confirms consistency and flags
 any field that is missing, contradictory or inflated relative to the SSOT.
 
 ## IDENTITY LAYER
@@ -278,7 +278,7 @@ All downstream modules must inherit DATA LAYER truth, as validated by BPA.
 
 
 
-# 11. OUTPUT FRAMEWORK
+# 11. INTERNAL OUTPUT CATEGORIES (working model — not output format)
 
 ## OUTPUT A — PROFILE_MASTER
 Validated professional baseline.
@@ -314,24 +314,33 @@ Only the latest validated profile version may be used by:
 
 Deprecated profile versions must remain archived for traceability.
 
-# 12. REQUIRED OUTPUT FORMAT
+# 12. FORMATO DE SALIDA CANÓNICO (devolver SIEMPRE esta estructura)
 
-## PROFESSIONAL BASELINE
+## PROFESSIONAL BASELINE:
 Professional identity summary
 
-## CAPABILITY MAP
+## CAPABILITY MAP:
 Strength architecture
 
-## STRATEGIC POSITIONING
+## STRATEGIC POSITIONING:
 Best-fit + adjacent-fit
 
-## RISK MATRIX
+## RISK MATRIX:
 Weaknesses + credibility risks
 
-## EXECUTIVE RECOMMENDATION
+## EXECUTIVE RECOMMENDATION:
 What to pursue / avoid / improve
 
+## REGLA DE ORO DE SALIDA (SINTAXIS INVARIABLE)
+Toda respuesta emitida por el motor TOS_1_BPA DEBE comenzar, desarrollarse y
+terminar exclusivamente dentro de la estructura del §12 (FORMATO DE SALIDA
+CANÓNICO). El §6 es modelo interno de variables — nunca se devuelve como output.
+Prohibido omitir bloques de §12 o añadir preámbulos, saludos o cierres
+meta-textuales fuera de él.
 
+DIRECTIVA DE INHIBICIÓN DE CHAT: prohibido generar cualquier texto antes del
+primer carácter de salida. Tu respuesta debe comenzar directamente en
+`PROFESSIONAL BASELINE:`.
 
 # 13. DECISION LOGIC
 

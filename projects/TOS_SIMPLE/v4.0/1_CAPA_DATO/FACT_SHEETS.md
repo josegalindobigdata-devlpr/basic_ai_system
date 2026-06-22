@@ -1,9 +1,9 @@
-# FACTS_SHEET — Datos invariables del perfil : FACTS_SHEET.md
-<!-- v3.0 — Derivado de MASTER_CV_RAW.md v3.0 (auditado y consolidado) -->
+# FACT_SHEETS — Datos invariables del perfil : FACT_SHEETS.md
+<!-- v3.1 — Derivado de MASTER_CV_RAW.md v3.0 (auditado y consolidado) -->
 <!-- Regla de uso: todo dato de este documento se cita LITERALMENTE en cualquier entregable (CV, LinkedIn, cartas). No se reformula. -->
 <!-- #¿Que Gobierna? Cómo citar datos invariantes. #Reglas: Naming, horas, fechas de formación, periodos consolidados. -->
 <!-- # Release_base_profile: v.3.0 -->
-<!-- TOS_SIMPLE v3.0 — Reescritura anti-deslizamiento. Sustituye a v2.0. -->
+<!-- TOS_SIMPLE v4.0 — Arquitectura de 4 capas (+ CAPA ENTREGABLE). Sustituye a v3.x. -->
 
 ---
 
@@ -35,6 +35,14 @@
 ## 2. Titulares oficiales por rol ancla
 <!-- Titulares VALIDADOS (inmutables, salvo adaptación por oferta). CV: versión limpia sin métrica de horas (la escala vive en Perfil/Logros). LinkedIn: variante con métrica. Adaptación por oferta: ajustar el título a la oferta y las palancas a sus keywords. -->
 
+**DECISIÓN DOCUMENTADA (v4.0) — Idioma del titular en CV Ancla:** en los CV Ancla, el
+TITULAR de cabecera se cita en **inglés** incluso en la versión ES (se usa la variante
+`CV — EN`), por convención de mercado TIC y compatibilidad ATS. La variante `CV — ES` se
+conserva como respaldo para ofertas que exijan explícitamente el título en español. El
+**cuerpo** del CV ES permanece en español. Esto resuelve la aparente discrepancia
+"`CV_ANCLA_*_ESP` con titular en inglés": es comportamiento **canónico**, no desviación.
+
+
 ### GOV — Governance / PMO
 - **CV — ES:** IT Governance & PMO Lead | Gobierno de Portfolios, Control Financiero y Reporting Ejecutivo | Banca y Seguros
 - **CV — EN:** IT Governance & PMO Lead | Portfolio Governance, Financial Control & Executive Reporting | Banking & Insurance
@@ -43,7 +51,7 @@
 ### SDM — Service Delivery / Managed Services
 - **CV — ES:** Senior IT Service Delivery Manager | Servicios Gestionados, SLA y P&L | Banca, Seguros y Multiproveedor
 - **CV — EN:** Senior IT Service Delivery Manager | Managed Services, SLA & P&L Governance | Banking, Insurance & Multi-vendor
-- **LinkedIn (EN, con métrica):** Senior IT Service Delivery Manager | Managed Services 130K+ hrs · SLA & P&L · Multi-vendor | Banking & Insurance
+- **LinkedIn (EN, con métrica):** Senior IT Service Delivery Manager | Managed Services 130K+ hrs/yr · SLA & P&L · Multi-vendor | Banking & Insurance
 
 ### DLV — Delivery (técnico)
 - **CV — ES:** Senior IT Delivery Manager | Plataformas de Datos, SDLC y Delivery Regulatorio | Banca, Seguros y Telecom
@@ -104,11 +112,11 @@ COBIT, CMMI, ISO 12207, ISO 15504, ISO 20000, ISO 21500, ISO 31000
   - EN: "cumulative PMO portfolio governance exceeding 500K delivery hours across enterprise programs"
   - Trazabilidad: BBVA Plataforma Informacional 215.000 h (MASTER 1.19) + BBVA Bancomer / México 150.000 h (1.20) + BMG Sistemas Estructurales >190.000 h/año (1.15). Refuerzan el margen, sin contabilizarse para alcanzar el umbral: DWH-RC 82.000 h (1.12), RDA-BI/BCBS 239 58.000 h (1.10), Plan de Sistemas Caixa Geral 90.000 h (1.18).
   - **REGLA DE USO (anti-inflación):** las dos cifras se presentan SIEMPRE diferenciadas — "200K+ en un solo programa / 500K+ acumulado como PMO". Nunca se cita "500K" sin la aclaración "acumulado".
-- **Gestión directa de servicios TI:** más de 130.000 horas
-  - EN: "directly managed IT service environments above 130K hours"
+- **Gestión directa de servicios TI:** más de 130.000 horas/año (escala de la cuenta de servicios gestionados insignia actual)
+  - EN: "managed services environment above 130K hours/year (current flagship account)"
 - **Sectores:** Banca, Seguros, Telecomunicaciones, Energía, Retail, Sector Público
-- **Cuentas/clientes de referencia:** Santander, BBVA, MAPFRE, Banc Sabadell, Telefónica, Repsol
-- **Mayor programa dirigido:** RDA-BI/BCBS 239 (Santander Consumer Finance) — presentar como "58.000 horas" según Decisión Documentada
+- **Cuentas/clientes de referencia:** Santander, BBVA, Mapfre, Banc Sabadell, Telefónica, Repsol, TGS, Liberbank
+- **Programa regulatorio insignia (delivery directo end-to-end):** RDA-BI/BCBS 239 (Santander Consumer Finance) — presentar como "58.000 horas" según Decisión Documentada
 - **Mayor cuenta gestionada (P&L):** 6,5 M€/año, 75 profesionales (Santander/Ayesa)
 
 ---
@@ -124,7 +132,23 @@ COBIT, CMMI, ISO 12207, ISO 15504, ISO 20000, ISO 21500, ISO 31000
 6. Los CVs usan el **título unificado ejecutivo** indicado en el campo Rol de cada bloque del MASTER; ese campo tiene prioridad.
 7. **Experiencia de cabecera: "+20 años"** anclado a gestión (desde 03/2003). Titulaciones: en CV solo el año de finalización; en LinkedIn el intervalo real (ver §4). La etapa técnica 12/1998–03/2003 se presenta resumida como base técnica, sin alimentar el contador de cabecera.
 8. **Transformación (CV ancla):** se cita solo como contexto en los bloques de experiencia (etiqueta del puesto real); nunca en titular, Perfil ni Logros. No se posiciona el perfil como experto en transformación. El perfil paraguas de LinkedIn sí puede presentarla como una de sus tres dimensiones (ver §2). Excepción: adaptación puntual del titular de un CV ancla a una oferta que lo exija explícitamente.
-9. **Nombres de empresa:** se cita la marca reconocible (Ayesa, Devoteam, GFI INFORMATICA, Atmira), no la razón social registral; misma forma en CV, LinkedIn y MASTER.
+9. **Nombres de empresa — forma, caja y disposición Cliente (Empleador):**
+   - **Forma de marca:** marca reconocible (Ayesa, Devoteam, Everis, Atmira),
+     no la razón social registral; misma forma en CV, LinkedIn y MASTER.
+   - **Caja mixta por defecto:** los nombres se escriben en caja mixta, nunca en
+     versalitas/bloque. Excepciones — SIEMPRE en mayúscula:
+       · Siglas/acrónimos: GFI, TGS, BBVA, BMG, SCF, CIB.
+       · Wordmarks en versalita por decisión documentada: ALSEA, GFI INFORMATICA.
+     SIEMPRE en caja mixta (nunca versalita): Devoteam, Mapfre, Kyndryl, Liberbank, Atmira, Repsol.
+   - **Disposición Cliente (Empleador):** la línea de empresa de cada bloque se
+     compone como **Cliente (Empleador)**, en negrita y caja mixta. El cliente va
+     delante porque carga la señal sectorial Tier-1 (Santander, BBVA, Mapfre…);
+     el empleador va entre paréntesis como dato contractual y para la detección
+     del campo *Company* en ATS. Multi-cliente: "Cliente1 / Cliente2 (Empleador)".
+   - **Énfasis único:** un solo recurso fuerte por nivel (negrita en la línea de
+     empresa). No se aplica versalita a cliente y empleador a la vez: aplana la
+     jerarquía y penaliza la legibilidad.
+   - Consolidaciones temporales y bloques propios (p. ej. Santander CIB): ver item 11.
 10. **Horas PMO — doble métrica (ver §6):** el acumulado de carrera "500.000+ horas" se cita SIEMPRE diferenciado del programa individual "200.000+ horas". Headline de LinkedIn: se mantiene "200K+" (cifra de programa individual, verificable de un vistazo); el acumulado solo se introduce, si se desea, en el cuerpo del ABOUT con la formulación diferenciada.
 11. **Agrupaciones temporales en CV (bloques-compañía):** además de Ibermática (item 1),
     las experiencias se consolidan en CV por:

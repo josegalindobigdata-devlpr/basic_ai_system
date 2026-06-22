@@ -2,10 +2,12 @@
 ## Nivel 2 — Posicionamiento por dominios de experiencia
 ### Contexto de mercado: 2026 · Perfil ejecutivo
 <!-- # Release_base_profile: v.3.0 -->
-<!-- Derivado y alineado a: MASTER_CV_RAW.md v3.0 · CV_ANCLA_SDM/GOV/DLV v3.0 · FACTS_SHEET.md v3.0 · LINKEDIN_PROFILE.md v3.0 -->
+<!-- Derivado y alineado a: MASTER_CV_RAW.md v3.0 · CV_ANCLA_SDM/GOV/DLV v3.0 · FACT_SHEETS.md v3.0 · LINKEDIN_PROFILE.md v3.0 -->
 <!-- Regla de integridad: toda keyword y posición diana debe ser trazable al MASTER. No se citan certificaciones, frameworks o tecnologías no evidenciados. -->
-<!-- TOS_SIMPLE v3.0 — Reescritura anti-deslizamiento. Sustituye a v3.0. -->
+<!-- NOTA DE DESAMBIGUACIÓN: SDM/GOV/DLV aquí son Roles Ancla de posicionamiento de carrera (CAPA DATO), no perfiles de comportamiento del asistente. Cualquier taxonomía homónima fuera de este proyecto no aplica — ver INSTRUCCIONES_PERSONALIZADAS §0. -->
+<!-- TOS_SIMPLE v3.0 — Reescritura anti-deslizamiento. Sustituye a v2.0. -->
 
+---
 ## Metadatos del documento
 - **Versión:** v3.0 (auditada y consolidada)
 - **Roles ancla:** Senior IT Service Delivery Manager (SDM) | IT Governance & PMO Lead (GOV) | Senior IT Delivery Manager (DLV)
@@ -17,7 +19,7 @@
 
 # ARCHIVO DE CONFIGURACIÓN DE ROLES ANCLA Y ESTRATEGIA DIANA
 
-Este documento actúa como la directriz canónica para la adaptación modular del perfil ejecutivo. Define la taxonomía semántica, las palabras clave de alta conversión y las posiciones objetivo para los algoritmos ATS de Headhunting de perfil C-Level y Comités de Dirección. Los titulares de referencia de cada dominio son los fijados en FACTS_SHEET §2; las cifras de cabecera, las de FACTS_SHEET §6.
+Este documento actúa como la directriz canónica para la adaptación modular del perfil ejecutivo. Define la taxonomía semántica, las palabras clave de alta conversión y las posiciones objetivo para los algoritmos ATS de Headhunting de perfil C-Level y Comités de Dirección. Los titulares de referencia de cada dominio son los fijados en FACT_SHEETS §2; las cifras de cabecera, las de FACT_SHEETS §6.
 
 ---
 

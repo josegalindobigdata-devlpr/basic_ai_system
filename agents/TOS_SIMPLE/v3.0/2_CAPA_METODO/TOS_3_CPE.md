@@ -49,37 +49,21 @@ HOW TO MAXIMIZE CONVERSION
 
 # 3. GOVERNANCE AUTHORITY
 
-TOS_3_CPE operates under:
+TOS_3_CPE opera bajo la jerarquía v3.0 (INSTRUCCIONES_PERSONALIZADAS §2):
 
-1. TOS_MASTER
-2. TOS_1_BPA
-3. TOS_2_OME
+1. CAPA DATO (FACT_SHEET > MASTER_CV_RAW > TARGET_POSITIONS_PROFILE > PORTFOLIO_CAPABILITIES)
+2. TOS_MASTER (estado y secuencia)
+3. CAPA MÉTODO (BPA → OME → CPE)
+4. TOS_SHARED_CONTEXT (continuidad)
 
-Authority hierarchy:
+REGLA DE ORO: el DATO manda sobre el MÉTODO.
 
-BPA = Truth boundary  
-OME = Opportunity alignment  
-CPE = Positioning execution  
+Si el posicionamiento excede lo que el DATO respalda: BLOCK.
+Si el posicionamiento ignora la decisión de OME: MISALIGNED.
 
-If positioning exceeds BPA:
-BLOCK
-
-If positioning ignores OME:
-MISALIGNED
-
-TOS_3_CPE also consumes:
-
-TOS_SHARED_CONTEXT
-
-Purpose:
-- preserve narrative continuity
-- maintain positioning consistency
-- inherit active strategic risks
-- align current opportunity state
-
-If shared context conflicts with:
-- BPA truth → BPA prevails
-- OME evaluation → OME prevails
+TOS_SHARED_CONTEXT aporta continuidad narrativa y riesgos activos, pero nunca
+sobreescribe DATO ni MÉTODO. Si SHARED_CONTEXT contradice un dato validado,
+prevalece el dato.
 
 # 4. PRIMARY OBJECTIVES
 
@@ -120,7 +104,7 @@ Optional:
 
 
 
-# 6. CANONICAL POSITIONING SCHEMA
+# 6. INTERNAL POSITIONING VARIABLES (working model — not output format)
 
 ## CORE NARRATIVE LAYER
 TARGET POSITION:
@@ -294,7 +278,7 @@ Foundation for TOS_4_IPE
 
 
 
-# 12. REQUIRED OUTPUT FORMAT
+# 12. FORMATO DE SALIDA CANÓNICO (devolver SIEMPRE esta estructura)
 
 ## POSITIONING SUMMARY
 Core market narrative
@@ -317,7 +301,15 @@ Objection prevention
 ## FINAL READINESS
 READY / PARTIAL / BLOCKED
 
+## REGLA DE ORO DE SALIDA (SINTAXIS INVARIABLE)
+La única estructura de salida válida de TOS_3_CPE es la de §12 (FORMATO DE SALIDA
+CANÓNICO). El §6 es modelo interno de variables — nunca se devuelve como output.
+Prohibido omitir bloques de §12 o añadir preámbulos, saludos o cierres
+meta-textuales fuera de él.
 
+DIRECTIVA DE INHIBICIÓN DE CHAT: prohibido generar cualquier texto antes del
+primer carácter de salida. Tu respuesta debe comenzar directamente en
+`## POSITIONING SUMMARY`.
 
 # 13. EXECUTION DECISION
 
@@ -334,14 +326,12 @@ Truth or strategic inconsistency
 
 # 14. STATE TRANSITION RULE
 
-If READY:
-STATE 4 → STATE 5 → TOS_4_IPE
+Pipeline lineal v3.0 (TOS_MASTER §4):
+EVALUATE (OME) → POSITION (CPE) → INTERVIEW (IPE) → CLOSE
 
-If PARTIAL:
-Remain STATE 4 until corrected
-
-If BLOCKED:
-Return STATE 3 or BPA review
+Si READY: avanza a TOS_4_IPE.
+Si PARTIAL: permanece en CPE hasta corregir.
+Si BLOCKED: retorna a OME o a revisión BPA.
 
 
 

@@ -1,7 +1,8 @@
 # PORTFOLIO DE CAPACIDADES MODULAR (STAR/CAR) : PORTFOLIO_CAPABILITIES.md
 <!-- #¿Que Gobierna? Cómo ensamblar un CV desde los bloques. #Reglas: Curación por antigüedad + temporalidad/agrupación. -->
 <!-- # Release_base_profile: v.3.0 -->
-<!-- TOS_SIMPLE v3.0 — Simplificación mono-usuario, perfil fijo. Sustituye a v2.0. -->
+<!-- TOS_SIMPLE v4.0 — Arquitectura de 4 capas (+ CAPA ENTREGABLE). Sustituye a v3.x. -->
+
 
 > **Fuente única de verdad:** `MASTER_CV_RAW.md` (v3.0 — auditado y consolidado).
 > Toda afirmación es trazable al MASTER. Donde el apartado de Resultado no contiene una métrica de impacto cuantificada se marca `[MÉTRICA PENDIENTE]`; ningún dato se ha inventado.
@@ -14,7 +15,7 @@
 | Código | Título | Rol ancla (ppal · sec) | Periodo | Estado |
 |---|---|---|---|---|
 | SDM-01 | Key Contract Manager – Cuenta Santander | SDM · GOV | 2025–26 | Completo |
-| SDM-02 | SDM Core asegurador TRON/Newtron – MAPFRE | SDM | 2023–25 | Completo |
+| SDM-02 | SDM Core asegurador TRON/Newtron – Mapfre | SDM | 2023–25 | Completo |
 | SDM-03 | SDM Big Data operacional – Banc Sabadell | SDM | 2021–23 | Completo |
 | SDM-04 | SDM Provisioning HCS – TGS Telefónica | SDM · DLV | 2019–21 | Completo |
 | SDM-05 | SDM Modelo AMS/eLab – Santander CIB | SDM | 2018–20 | Completo |
@@ -106,7 +107,7 @@
 - **Resultado (R):** Mejoré la rentabilidad global de la cuenta en +5,79% mediante ajuste de tarifas y control de desviaciones prestación-facturación; reduje las desviaciones entre horas planificadas, ejecutadas y facturadas en un 8–10%; aseguré el cumplimiento de compromisos operativos y de reporting en niveles cercanos al 95%; garanticé la cobertura de capacidad planificada conforme a contrato; y ejercí de SPOC con interlocución directa con la gerencia de Santander y la Dirección de Ayesa.
 - **Keywords:** Key Contract Manager, Service Delivery, P&L de servicio / account profitability, control de facturación, gestión multiproveedor, SPOC, banking, ISO 21500.
 
-## [SDM-02] Senior Service Delivery Manager – Core asegurador TRON/Newtron (MAPFRE) · [09/2023 – 08/2025]
+## [SDM-02] Senior Service Delivery Manager – Core asegurador TRON/Newtron (Mapfre) · [09/2023 – 08/2025]
 - **Compañía:** Ayesa · **Cliente:** Mapfre
 - **Rol ancla:** SDM (principal)
 - **Contexto (S/T):** Servicio de mantenimiento y evolución del core asegurador (TRON/Newtron), múltiples equipos, alta carga evolutiva y exigencia de SLAs, bajo modelo de horas asignadas (~24.000 h/año). El servicio arrastraba desviaciones económicas.
@@ -236,7 +237,7 @@
 - **Contexto (S/T):** Gestión técnica en la construcción de un producto de reporting analítico (informacional/técnico) para una startup europea (Betahaus, Alemania) en proyectos I+D financiados por la Comisión Europea (Programa Marco FP7): liderando la construcción del módulo de reporting con la finalidad de entregar un MVP de la plataforma. Esfuerzo total del proyecto ~3.200 h.
 - **Acción (A):** Definí funcional y técnicamente la línea de reporting para sistemas analíticos complejos; lideré el ciclo de vida de desarrollo del módulo de reporting asegurando calidad técnica; diseñé la arquitectura de datos y procesos ETL (Pentaho/SAS/Oracle OWB); gestioné la configuración e implantación; y aseguré el cumplimiento de los hitos y entregables del marco regulador de la UE.
 - **Resultado (R):** Desarrollé el MVP de la plataforma de reporting analítico en el programa europeo FP7, validando capacidades de análisis de datos y cumpliendo los objetivos técnicos definidos por la Comisión Europea; diseñé e implementé la arquitectura de reporting (Pentaho/SAS/Oracle OWB) con procesos ETL; y optimicé la gestión de releases con control de configuración, entregando los principales hitos técnicos del MVP con un esfuerzo total de ~3.200 h. *(Sin métrica de impacto KPI por decisión documentada: bloque cualitativo — ver Decisiones Documentadas.)*
-- **Keywords:** Delivery de módulo en producto / MVP, I+D FP7 (Comisión Europea), plataforma informacional / reporting analítico, gestión de configuración, Pentaho/SAS/OWB, ITIL.
+- **Keywords:** Delivery de módulo de reporting / MVP, I+D FP7 (Comisión Europea), plataforma informacional / reporting analítico, gestión de configuración, Pentaho/SAS/OWB, ITIL.
 
 ## [DLV-09] Project Management de Proyectos BI – GFI · [03/2003 – 05/2005]
 - **Compañía:** GFI Informática · **Cliente:** Banca / Telecom / Sector Público
@@ -269,22 +270,22 @@ No quedan métricas pendientes. Los dos bloques sin métrica de impacto cuantifi
 
 ## 6. Reglas de uso, curación y temporalidad
 
-> **Modelo de gobierno (3 capas).** `MASTER_CV_RAW.md` = fuente única (datos + DECISIONES DOCUMENTADAS canónicas). `FACTS_SHEET.md §7` = reglas de citación de datos invariables (nombres, horas, fechas de formación, periodos consolidados). **Este §6** = reglas de ensamblado/curación al construir un CV a partir de los bloques modulares. Cada regla vive donde se aplica; ninguna cifra canónica se redefine aquí.
+> **Modelo de gobierno (3 capas).** `MASTER_CV_RAW.md` = fuente única (datos + DECISIONES DOCUMENTADAS canónicas). `FACT_SHEETS.md §7` = reglas de citación de datos invariables (nombres, horas, fechas de formación, periodos consolidados). **Este §6** = reglas de ensamblado/curación al construir un CV a partir de los bloques modulares. Cada regla vive donde se aplica; ninguna cifra canónica se redefine aquí.
 
 - **Curación por antigüedad.** La antigüedad de una métrica no la descarta por sí sola; el criterio de descarte es **antigüedad + bajo diferencial competitivo**. Una métrica antigua se conserva o se promueve a un CV ancla solo si es **excepcional o singular** (algo que pocos perfiles pueden afirmar). En caso contrario, los bloques antiguos se presentan con **volumen y contexto**, reservando la métrica de impacto para los bloques recientes o para adaptaciones a una oferta concreta que la requiera.
 - **Concentración de la evidencia.** La carga cuantitativa se concentra en la franja reciente; no se diluye hacia bloques antiguos que no mueven la decisión.
-- **Temporalidad y agrupación (CV ampliado).** En los CV las experiencias se agrupan según el *mapa de agrupaciones* (por Compañía + decisión de CV ancla); el periodo visible es la **unión** del grupo. Los periodos de cabecera de cada bloque están alineados al MASTER y son **sub-periodos**. Al construir un CV ampliado seleccionando bloques: (1) respetar el mapa de agrupaciones, (2) mostrar el periodo de la agrupación —no el del bloque individual—, (3) no presentar servicios concurrentes/solapados como roles secuenciales. Los bloques con ⚠ **Agrupación CV** indican su bloque-compañía y periodo canónico. Aviso: agrupar por Compañía **no** es automático — p. ej. SDM-05 (Santander CIB) también es Ibermática pero va como bloque propio, separado del clúster TGS/ALSEA; manda el mapa, no la compañía.
+- **Temporalidad y agrupación (CV ampliado).** En los CV las experiencias se agrupan según el *mapa de agrupaciones* (por Compañía + decisión de CV ancla); el periodo visible es la **unión** del grupo, salvo cuando el MASTER documenta una **ventana de presentación** (caso Ibermática: 02/2020–01/2021). Los periodos de cabecera de cada bloque están alineados al MASTER y son **sub-periodos**. Al construir un CV ampliado seleccionando bloques: (1) respetar el mapa de agrupaciones, (2) mostrar el periodo de la agrupación —no el del bloque individual—, (3) no presentar servicios concurrentes/solapados como roles secuenciales. Los bloques con ⚠ **Agrupación CV** indican su bloque-compañía y periodo canónico. Aviso: agrupar por Compañía **no** es automático — p. ej. SDM-05 (Santander CIB) también es Ibermática pero va como bloque propio, separado del clúster TGS/ALSEA; manda el mapa, no la compañía.
 
   **Mapa de agrupaciones que rompen la temporalidad:**
 
-  | Bloque-compañía (CV) | Periodo unión | Bloques portfolio |
+  | Bloque-compañía (CV) | Periodo CV (presentación) | Bloques portfolio |
   |---|---|---|
-  | Ibermática · TGS/ALSEA | 02/2020 – 01/2021 | SDM-04, SDM-06, DLV-05 |
+  | Ibermática · TGS/ALSEA | 02/2020 – 01/2021 *(ventana de presentación documentada; unión real 02/2019–02/2021, MASTER 1.4/1.5/1.6)* | SDM-04, SDM-06, DLV-05 |
   | Atmira · PMO Regulatory | 09/2013 – 04/2016 | DLV-01, DLV-02, GOV-01 |
   | Devoteam · Enterprise Transformation | 01/2010 – 08/2012 | GOV-02, DLV-06, DLV-07 |
   | Everis · Plataforma Informacional BBVA | 08/2007 – 07/2009 | GOV-03, GOV-04, GOV-05 |
   | GFI Informática | 03/2003 – 07/2007 | SDM-08, DLV-09 |
 
-  Los 9 bloques restantes son 1:1 (sin agrupación). El periodo consolidado de Ibermática es canónico en `FACTS_SHEET.md §7.1`; las otras 4 agrupaciones conviene fijarlas también en el MASTER/FACTS para fuente única (ver nota al final de la conversación).
-- **Referencia a decisiones del MASTER.** Para reglas de presentación (redondeo de porcentajes en CV ancla, posicionamiento de transformación, naming Ayesa, formación comprimida, cifras pequeñas junto a grandes), el criterio canónico es el del MASTER y `FACTS_SHEET.md §7`; no se duplica aquí para evitar desalineación.
+  Los 9 bloques restantes son 1:1 (sin agrupación). Las 5 agrupaciones son canónicas en `FACT_SHEETS.md` §7.1 (Ibermática) y §7.11 (Atmira, Devoteam, Everis, GFI); este mapa es proyección, no fuente.
+- **Referencia a decisiones del MASTER.** Para reglas de presentación (redondeo de porcentajes en CV ancla, posicionamiento de transformación, naming Ayesa, formación comprimida, cifras pequeñas junto a grandes), el criterio canónico es el del MASTER y `FACT_SHEETS.md §7`; no se duplica aquí para evitar desalineación.
 ---

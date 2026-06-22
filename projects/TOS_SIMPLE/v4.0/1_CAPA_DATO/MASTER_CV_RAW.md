@@ -1,6 +1,7 @@
 # DOCUMENTO DE EXPERIENCIA PROFESIONAL – BASE PROFILE (v3.0 — AUDITADO Y CONSOLIDADO): MASTER_CV_RAW.md
 <!-- #¿Que Gobierna? Datos + decisiones. #Reglas: Fuente única de la verdad para todo. -->
 <!-- # Release_base_profile: v.3.0 -->
+<!-- TOS_SIMPLE v4.0 — Arquitectura de 4 capas (+ CAPA ENTREGABLE). Sustituye a v3.x. -->
 
 
 # 1.0   [04/2026-Actual] Senior Transformation & Delivery Advisor
@@ -828,8 +829,8 @@ Argumentario entrevista: "58.000 horas en el año principal del programa, con ci
 En los CVs la experiencia del 12/1998-03/2003 quedará resumida.
 Decisión documentada: Por decisión de diseño se presenta resumida y se mantiene el respaldo de información.
 ## Bloque general
-Decisión documentada: En lineas generales hablar de PMO de mas de 200khoras y gestión de servicios de mas de 130khoras.
-I have participated in PMO governance of enterprise portfolios exceeding 200K delivery hours and directly managed IT service environments above 130K hours
+Decisión documentada: En lineas generales hablar de PMO de mas de 200khoras y gestión de servicios de mas de 130khoras/año (escala de la cuenta de servicios gestionados insignia actual).
+I have participated in PMO governance of enterprise portfolios exceeding 200K delivery hours and directly managed IT service environments above 130K hours/year (current flagship account)
 ## Bloque Ayesa 
 Decisión documentada: En linkedin se habla de Ayesa como bloque, pero en se especifica tras la compra a finales de 2022 (29/12/2022) por Ayesa, siendo Ayesa Ibermatica.
 ## Bloque roles
@@ -854,10 +855,10 @@ Decisión documentada: Los años de formación se citan en CV (forma comprimida)
 Decisión documentada:
 - En los CV la formación se comprime al máximo. Versión comprimida canónica para CV:
   **Executive MBA (2011, EOI) | Ingeniero en Informática (1998, UMU) | PMP® | ITIL®**
-- Años de titulación: en CV solo el AÑO DE FINALIZACIÓN; en LinkedIn el INTERVALO REAL (ver FACTS_SHEET §4). No se omiten, pero en CV no se exponen intervalos.
+- Años de titulación: en CV solo el AÑO DE FINALIZACIÓN; en LinkedIn el INTERVALO REAL (ver `FACT_SHEETS.md` §4). No se omiten, pero en CV no se exponen intervalos.
 ## Bloque Posicionamiento — Transformación
 Decisión documentada: La transformación se nombra únicamente como contexto en los bloques de experiencia (etiqueta del puesto real); no se eleva a titular, Perfil ni Logros, para no posicionar el perfil como rol experto en transformación. Excepción: adaptación del titular a una oferta concreta que la requiera explícitamente.
-Alcance: aplica a los CV ancla; el perfil paraguas de LinkedIn puede presentarla como una de sus tres dimensiones de liderazgo (ver FACTS §2).
+Alcance: aplica a los CV ancla; el perfil paraguas de LinkedIn puede presentarla como una de sus tres dimensiones de liderazgo (ver `FACT_SHEETS.md` §2).
 Control de densidad (LinkedIn): aunque "transformation" es legítima como una de las tres dimensiones paraguas, NO debe sobre-representarse hasta eclipsar los tres anclas (SDM, GOV, DLV) ni encasillar el
 perfil como "transformation lead" —que no es ninguno de los anclas objetivo—. Criterio: vigilar que el término no domine simultáneamente headline + dimensión + títulos de bloque.
 Estado actual (flanco asumido): "transformation" aparece hoy en el headline, en la dimensión 3, en el título del bloque advisor (1.0), en el bloque everis y en la línea de cierre del ABOUT. Es una decisión
@@ -870,7 +871,7 @@ dimensiones de mi perfil, no como mi identidad principal."
 Decisión documentada: La antigüedad de una métrica no la descarta por sí sola.
 El criterio de descarte es antigüedad + bajo diferencial competitivo. Una métrica antigua se conserva o se promueve a un CV ancla solo si es excepcional o singular (algo que pocos perfiles pueden afirmar). En caso contrario, los bloques antiguos se presentan con volumen y contexto, reservando la métrica de impacto para los bloques recientes o para adaptaciones a una oferta concreta que la requiera.
 ## Bloque Métricas — Horas PMO (programa individual vs. acumulado de carrera)
-Extiende y precisa el "Bloque general" (200K PMO / 130K servicios).
+Extiende y precisa el "Bloque general" (200K PMO / 130K servicios/año).
 Composición del acumulado de gobierno PMO (suma de portfolios gobernados a lo largo de la carrera):
 - BBVA Plataforma Informacional Corporativa — 215.000 h (1.19)
 - BBVA Bancomer / México (Cenit BaseOper) — 150.000 h (1.20)
@@ -886,7 +887,7 @@ Decisión documentada:
   — "200K+ en un solo programa / 500K+ acumulado como PMO". Nunca se cita "500K" sin la palabra "acumulado".
 - Headline de LinkedIn: conserva "200K+" (programa individual, verificable de un vistazo);
   el acumulado solo aparece en el cuerpo del ABOUT con la formulación diferenciada.
-- Aplicación: FACTS §6 y §7.10, CV ancla GOV (Perfil + 1er logro), LinkedIn ABOUT.
+- Aplicación: `FACT_SHEETS.md` §6 y §7.10, CV ancla GOV (Perfil + 1er logro), LinkedIn ABOUT.
 Argumentario entrevista: "He gobernado programas individuales de hasta 215.000 horas; sumando los
 portfolios que he dirigido como PMO a lo largo de mi carrera, el acumulado supera las 500.000 horas de delivery."
 ## Bloque Posicionamiento — Rol Advisor (1.0) en LinkedIn vs. CV ancla
