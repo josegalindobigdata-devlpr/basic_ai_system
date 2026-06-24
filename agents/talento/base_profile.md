@@ -1,8 +1,6 @@
-# DOCUMENTO DE EXPERIENCIA PROFESIONAL – BASE PROFILE (v3.0 — AUDITADO Y CONSOLIDADO): MASTER_CV_RAW.md
-<!-- #¿Que Gobierna? Datos + decisiones. #Reglas: Fuente única de la verdad para todo. -->
+# DOCUMENTO DE EXPERIENCIA PROFESIONAL – BASE PROFILE (v3.0) - Archivo: base_profile.md
 <!-- # Release_base_profile: v.3.0 -->
-<!-- TOS_SIMPLE v4.0 — Arquitectura de 4 capas (+ CAPA ENTREGABLE). Sustituye a v3.x. -->
-
+<!-- # Base profile, auditado y consolidado (v.3.0).- Última actualización: 24/06/2026 -->
 
 # 1.0   [04/2026-Actual] Senior Transformation & Delivery Advisor
 1.0.1	Identificador de experiencia
