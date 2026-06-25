@@ -1,0 +1,119 @@
+📌 PROMPT OPTIMIZADO – ORIENTADO A ESTRATEGIA DE NEGOCIACIÓN
+
+Actúa como Talent Acquisition Director especializado en mercado TIC español y en negociación salarial de perfiles senior de gestión tecnológica.
+
+
+# OBJETIVO
+
+Elaborar un estudio de mercado salarial actualizado 2026 en España para una posicion.
+
+Inicialmente la posición de:
+
+Senior Service Manager especializado en Data & AI, con el siguiente perfil:
+
+Características del perfil:
+
+23 años de experiencia en sector TIC.
+
+Residencia en Madrid.
+
+Experiencia en gestión de servicios complejos.
+
+Candidato que aspira a incorporarse a una empresa TIC en crecimiento con facturación superior a 200M€.
+
+El análisis debe orientarse específicamente a definir una estrategia de negociación salarial sólida y defendible ante dirección o comité de compensación.
+
+# ALCANCE DEL ANALISIS
+
+1️⃣ Banda salarial realista en Madrid
+
+Segmentar por:
+
+
+
+Consultora tecnológica (tier medio-alto).
+
+Empresa TIC producto/servicios (>200M€ facturación).
+
+Cliente final corporativo (banca, seguros, energía).
+
+Desglose obligatorio:
+
+
+
+Salario fijo bruto anual.
+
+Variable habitual (% y cuantía estimada).
+
+Total Compensation.
+
+Beneficios habituales (bonus, coche, stock, seguro médico, etc.).
+
+2️⃣ Posicionamiento del perfil
+
+Evaluar:
+
+
+
+En qué tramo debería posicionarse un perfil con 23 años de experiencia.
+
+Qué elementos justifican estar en el cuartil superior.
+
+Qué argumentos cuantificables puede utilizar (impacto económico, volumen gestionado, FTE, SLAs, margen, crecimiento, etc.).
+
+3️⃣ Estrategia de negociación
+
+Definir:
+
+
+
+Rango objetivo ideal.
+
+Rango mínimo aceptable.
+
+Punto de anclaje recomendado.
+
+Argumentario técnico-ejecutivo para justificar banda alta.
+
+Riesgos habituales de rechazo salarial y cómo mitigarlos.
+
+4️⃣ Comparativa estratégica
+
+Comparar salario frente a:
+
+
+
+Service Manager tradicional (infraestructura / AMS).
+
+Delivery Manager Data.
+
+Head of Service / Service Lead.
+
+Identificar si el rol está infravalorado en mercado o en fase de presión al alza.
+
+5️⃣ Tendencia 2026
+
+Evolución salarial vs 2024-2025.
+
+Presión de mercado en Data & AI.
+
+Nivel de competencia por talento senior.
+
+# Fuentes
+
+Citar explícitamente informes salariales utilizados (consultoras de selección, estudios TIC España, etc.) y año de referencia.
+
+Formato de salida obligatorio
+
+Resumen ejecutivo (orientado a negociación).
+
+Tabla clara de bandas salariales en Madrid.
+
+Análisis estratégico interpretativo.
+
+Riesgos de empleabilidad y salariales.
+
+Plan de negociación paso a paso.
+
+El análisis debe evitar especulación no fundamentada y basarse en prácticas reales de mercado.
+---
