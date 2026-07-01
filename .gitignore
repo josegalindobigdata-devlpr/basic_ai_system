@@ -1,27 +1,61 @@
+# Entorno virtual
+venv/
+.venv/
+
+# Datos y almacenamiento local (Sensible)
+data/
+.env
+!*.env.example
+
 # Byte-compiled / cache
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-
-# Virtual environments
-venv/
-.env/
-.venv/
-__pycache__/
 *.pyc
-.env
 
 # IDEs
 .vscode/
 .idea/
 
-# Logs
+# Logs del sistema
+log/
+*.txt
 *.log
 
-# OS files
-.DS_Store
-Thumbs.db
+# Backups locales / dumps
+*.sql
+*.sql.gz
+*.tar.gz
+backups/
+
+# Certificados / claves
+*.pem
+*.key
+*.crt
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Sistema operativo / editor
+.DS_Store
+*.swp
+
+# Archivos temporales
+# Word
+*.docx
+~$*.docx
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Temporales
+*.bak
+*.tmp
+*.swp
+
+# Directorios
+__pycache__/
+.pytest_cache/
+node_modules/
